@@ -38,11 +38,10 @@
     font-size: 1.32rem;
     letter-spacing: -0.02em;
     color: $color-ink;
-    background: none;
+    text-decoration: none;
 
     &:hover {
       color: $color-accent;
-      background: none;
     }
   }
 }
@@ -97,14 +96,13 @@
     display: block;
     padding: $space-xs 0;
     color: $color-text;
-    background: none;
+    text-decoration: none;
     font-family: $font-ui;
     font-size: $font-size-sm;
     font-weight: 500;
 
     &:hover {
       color: $color-accent;
-      background: none;
     }
 
     &[aria-current="page"] {
@@ -211,10 +209,11 @@
 
   a {
     color: #fff;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    text-decoration-color: rgba(255, 255, 255, 0.5);
 
     &:hover {
       color: #fff;
+      text-decoration-color: #fff;
     }
   }
 }

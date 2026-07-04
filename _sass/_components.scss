@@ -37,6 +37,7 @@
   font-size: $font-size-sm;
   font-weight: 600;
   line-height: 1;
+  text-decoration: none;
   border: 1px solid $color-border-strong;
   border-radius: $radius;
   color: $color-ink;
@@ -156,9 +157,9 @@
 
     a {
       color: $color-ink;
-      background: none;
+      text-decoration: none;
 
-      &:hover { color: $color-accent; background: none; }
+      &:hover { color: $color-accent; }
     }
   }
 
@@ -238,6 +239,7 @@
     border-radius: $radius-pill;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     cursor: pointer;
     list-style: none;
 
@@ -397,9 +399,10 @@
     font-weight: 500;
 
     a {
-      color: $color-text;
+      color: $color-link;
+      text-decoration: none;
 
-      &:hover { color: $color-accent; }
+      &:hover { color: $color-link-dark; }
     }
   }
 }
@@ -431,6 +434,13 @@
     line-height: 1.35;
     font-style: italic;
     color: $color-ink;
+  }
+
+  &__link {
+    margin: $space-sm 0 0;
+    font-family: $font-ui;
+    font-size: $font-size-sm;
+    font-weight: 600;
   }
 }
 

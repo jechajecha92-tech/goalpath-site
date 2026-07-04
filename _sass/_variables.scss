@@ -4,9 +4,11 @@
 $color-ink: #17181d;            // display headings, 15.8:1 on paper
 $color-text: #34353d;          // body text, 10.4:1 on paper
 $color-text-muted: #64656f;    // secondary text, 5.4:1 on paper
-$color-accent: #4338ca;        // links, primary actions, 8.6:1 on white
+$color-accent: #4338ca;        // UI accent (buttons, nav, eyebrows), 8.6:1 on white
 $color-accent-bright: #4f46e5; // fills, decorative accents
 $color-accent-dark: #322aa0;   // hover
+$color-link: #1a5fb4;          // text hyperlinks — clearly blue & clickable
+$color-link-dark: #123f82;     // link hover
 $color-accent-tint: #eeecfb;   // soft accent surfaces
 $color-bg: #f8f8fb;            // page background (barely cool off-white)
 $color-surface: #ffffff;       // cards, header

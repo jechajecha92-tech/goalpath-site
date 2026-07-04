@@ -1,6 +1,22 @@
 # Applied research, consultancy, and academic projects from the author's CV.
 # Fields: name, role, status, description, tech (keywords), url (optional),
 #         featured (shown on the home page).
+- name: GoalPath — AI Scaffolding System for Academic Procrastination
+  role: Creator & lead developer
+  status: Live · PhD research system
+  featured: true
+  description: >-
+    The web-based system built for my doctoral research: an AI-enhanced
+    scaffolding tool that helps undergraduates set goals, plan study
+    sessions, and receive AI-generated support to reduce academic
+    procrastination. It is the platform through which my dissertation's
+    scaffolding model is implemented and evaluated.
+  tech:
+    - AI scaffolding
+    - Self-regulated learning
+    - Web application
+  url: "https://goalpath.site/#dashboard"
+
 - name: Inclusive Digital Economy Scorecard (IDES) & Zanzibar Digital Transformation Policy
   role: Consultant / researcher
   status: 2024
