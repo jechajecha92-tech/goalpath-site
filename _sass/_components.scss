@@ -1,0 +1,327 @@
+// Reusable components: prose, buttons, tags, cards, publications, news, hero.
+
+// Long-form content
+.prose {
+  h2 {
+    margin-top: $space-xl;
+  }
+
+  h3 {
+    margin-top: $space-lg;
+  }
+
+  > h2:first-child,
+  > h3:first-child {
+    margin-top: 0;
+  }
+
+  li {
+    margin-bottom: $space-xs;
+  }
+}
+
+// Buttons
+.button {
+  display: inline-block;
+  padding: $space-xs $space-md;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid $color-accent;
+  border-radius: $radius;
+  color: $color-accent;
+  background: $color-bg;
+  transition: background $transition, color $transition;
+
+  &:hover {
+    background: $color-accent;
+    color: $color-bg;
+  }
+
+  &--primary {
+    background: $color-accent;
+    color: $color-bg;
+
+    &:hover {
+      background: $color-accent-dark;
+      border-color: $color-accent-dark;
+      color: $color-bg;
+    }
+  }
+}
+
+// Tags / research interests
+.tag {
+  display: inline-block;
+  padding: 0.15rem $space-sm;
+  margin: 0 $space-xs $space-xs 0;
+  font-size: $font-size-sm;
+  color: $color-text-muted;
+  background: $color-bg-subtle;
+  border: 1px solid $color-border;
+  border-radius: 999px;
+}
+
+.tag-list {
+  list-style: none;
+  margin: 0 0 $space-md;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-xs;
+
+  .tag {
+    margin: 0;
+  }
+}
+
+// Profile links (email, Scholar, ORCID, GitHub, LinkedIn)
+.profile-links {
+  list-style: none;
+  margin: 0 0 $space-md;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-sm $space-md;
+  font-weight: 500;
+
+  &--compact {
+    margin: 0;
+    font-size: $font-size-sm;
+  }
+}
+
+// Cards (projects, blog previews)
+.card {
+  padding: $space-md;
+  background: $color-bg-subtle;
+  border: 1px solid $color-border;
+  border-radius: $radius;
+
+  &__title {
+    font-size: $font-size-h3;
+    margin-bottom: $space-xs;
+
+    a {
+      color: $color-text;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+
+  &__meta {
+    font-size: $font-size-sm;
+    color: $color-text-muted;
+    margin-bottom: $space-xs;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-grid {
+  display: grid;
+  gap: $space-md;
+  margin-bottom: $space-md;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Publication entries
+.pub {
+  margin-bottom: $space-lg;
+  padding-bottom: $space-lg;
+  border-bottom: 1px solid $color-border;
+
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  &__title {
+    font-size: $font-size-h3;
+    margin-bottom: $space-xs;
+  }
+
+  &__authors,
+  &__venue {
+    margin: 0 0 $space-xs;
+    font-size: $font-size-sm;
+    color: $color-text-muted;
+  }
+
+  &__venue em {
+    font-style: italic;
+  }
+
+  &__links {
+    list-style: none;
+    margin: $space-sm 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-sm;
+    font-size: $font-size-sm;
+    font-weight: 500;
+  }
+
+  details {
+    margin-top: $space-sm;
+    font-size: $font-size-sm;
+
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+      color: $color-accent;
+
+      &:hover {
+        color: $color-accent-dark;
+      }
+    }
+
+    pre {
+      margin-top: $space-sm;
+    }
+
+    p {
+      margin-top: $space-sm;
+    }
+  }
+}
+
+.pub-copy {
+  margin-top: $space-xs;
+  padding: 0.2rem $space-sm;
+  font: inherit;
+  font-size: $font-size-sm;
+  color: $color-accent;
+  background: none;
+  border: 1px solid $color-border;
+  border-radius: $radius;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $color-accent;
+  }
+}
+
+// News list
+.news-list {
+  list-style: none;
+  margin: 0 0 $space-md;
+  padding: 0;
+
+  li {
+    display: flex;
+    gap: $space-md;
+    padding: $space-xs 0;
+  }
+
+  time {
+    flex: 0 0 6.5rem;
+    color: $color-text-muted;
+    font-size: $font-size-sm;
+    font-variant-numeric: tabular-nums;
+    padding-top: 0.15rem;
+  }
+}
+
+// Home page hero and sections
+.hero {
+  margin-bottom: $space-2xl;
+
+  &__name {
+    margin-bottom: $space-xs;
+  }
+
+  &__positions {
+    font-size: $font-size-lg;
+    color: $color-text-muted;
+    margin-bottom: $space-md;
+  }
+
+  &__statement {
+    max-width: $container-width;
+    margin-bottom: $space-md;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-sm;
+    margin-bottom: $space-md;
+  }
+}
+
+.home-section {
+  margin-bottom: $space-2xl;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: $space-sm;
+    margin-bottom: $space-md;
+
+    h2 {
+      margin: 0;
+    }
+
+    a {
+      font-size: $font-size-sm;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+  }
+}
+
+// Contact page definition list
+.contact-list {
+  dt {
+    font-weight: 650;
+    margin-top: $space-md;
+  }
+
+  dd {
+    margin: $space-xs 0 0;
+  }
+}
+
+// Post metadata
+.post__meta {
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-sm;
+  margin: 0;
+}
+
+.post__footer {
+  margin-top: $space-xl;
+  padding-top: $space-md;
+  border-top: 1px solid $color-border;
+  font-size: $font-size-sm;
+}
+
+// Post list (insights index)
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    margin-bottom: $space-lg;
+  }
+}
