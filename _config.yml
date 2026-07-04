@@ -1,0 +1,69 @@
+# Site settings
+title: Jecha S Jecha
+tagline: PhD Researcher in AI in Education
+description: >-
+  Personal academic website of Jecha S Jecha, PhD student at Southwest
+  University researching Artificial Intelligence in Education, academic
+  procrastination, self-regulated learning, and learning analytics.
+url: "https://goalpath.site"
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+
+# Author profile (used across layouts, SEO, and structured data)
+author:
+  name: Jecha S Jecha
+  email: jechajecha92@gmail.com
+  positions:
+    - title: PhD Student
+      institution: Southwest University
+      location: Chongqing, China
+    - title: Assistant Lecturer
+      institution: Zanzibar University
+      location: Zanzibar, Tanzania
+  research_interests:
+    - Artificial Intelligence in Education
+    - Academic Procrastination
+    - Self-Regulated Learning
+    - Educational Technology
+    - Learning Analytics
+    - Human-AI Interaction
+  # Profile links: replace the placeholder IDs when accounts are available
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+  google_scholar: "https://scholar.google.com/citations?user=SCHOLAR_ID"
+  github: "https://github.com/jechajecha92-tech"
+  linkedin: "https://www.linkedin.com/in/jecha-jecha"
+  phone_china: "+86 19332914873"
+  phone_tanzania: "+255 776752905"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /insights/:year/:month/:day/:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Files excluded from the generated site
+exclude:
+  - README.md
+  - LICENSE
+  - SPEC.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .claude
