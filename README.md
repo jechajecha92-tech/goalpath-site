@@ -1,9 +1,11 @@
-# goalpath.site — Academic Website of Jecha S Jecha
+# academic.goalpath.site — Academic Website of Jecha S Jecha
 
 Personal academic website for Jecha S Jecha, PhD student at Southwest
 University (Chongqing, China) and Assistant Lecturer at Zanzibar University.
 Built with native Jekyll and deployed on GitHub Pages at
-[goalpath.site](https://goalpath.site).
+[academic.goalpath.site](https://academic.goalpath.site). The root
+`goalpath.site` hosts a separate application (GoalPath-AI); this site lives on
+the `academic` subdomain.
 
 ## Stack
 
@@ -80,8 +82,11 @@ bundle exec jekyll serve
 ## Deployment
 
 Pushing to `main` deploys via GitHub Pages. `CNAME` pins the custom domain
-`goalpath.site`; configure DNS with an A/ALIAS record to GitHub Pages and
-enable **Enforce HTTPS** in the repository settings.
+`academic.goalpath.site`. Because this is a subdomain (the apex
+`goalpath.site` is used by a separate app), configure DNS with a single
+`CNAME` record — `academic` → `jechajecha92-tech.github.io.` — and do **not**
+touch the apex `@` records. After DNS resolves, enable **Enforce HTTPS** in
+the repository's Pages settings.
 
 ## Updating content
 
