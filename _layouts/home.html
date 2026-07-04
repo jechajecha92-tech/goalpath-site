@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<div class="container container--wide">
+
+  <section class="hero">
+    <h1 class="hero__name">{{ site.author.name }}</h1>
+    <p class="hero__positions">
+      {%- for pos in site.author.positions -%}
+      {{ pos.title }}, {{ pos.institution }}{% unless forloop.last %} &middot; {% endunless %}
+      {%- endfor -%}
+    </p>
+    <div class="hero__statement prose">
+      {{ content }}
+    </div>
+    <h2 class="visually-hidden">Research interests</h2>
+    <ul class="tag-list">
+      {%- for interest in site.author.research_interests %}
+      <li class="tag">{{ interest }}</li>
+      {%- endfor %}
+    </ul>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/assets/files/jecha-s-jecha-cv.pdf' | relative_url }}" download>Download CV (PDF)</a>
+      <a class="button" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+    </div>
+    {% include profile-links.html %}
+  </section>
+
+  {%- if site.data.news %}
+  <section class="home-section" aria-labelledby="home-news">
+    <div class="home-section__header">
+      <h2 id="home-news">News</h2>
+    </div>
+    <ul class="news-list">
+      {%- for item in site.data.news limit: 5 %}
+      <li>
+        <time datetime="{{ item.date }}">{{ item.date | date: "%b %Y" }}</time>
+        <span>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  {%- assign featured_pubs = site.data.publications | where: "featured", true %}
+  {%- if featured_pubs.size > 0 %}
+  <section class="home-section" aria-labelledby="home-pubs">
+    <div class="home-section__header">
+      <h2 id="home-pubs">Featured publications</h2>
+      <a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
+    </div>
+    {%- for pub in featured_pubs limit: 3 %}
+    {% include publication.html pub=pub id_prefix="home" %}
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  {%- assign featured_projects = site.data.projects | where: "featured", true %}
+  {%- if featured_projects.size > 0 %}
+  <section class="home-section" aria-labelledby="home-projects">
+    <div class="home-section__header">
+      <h2 id="home-projects">Featured projects</h2>
+      <a href="{{ '/projects/' | relative_url }}">All projects &rarr;</a>
+    </div>
+    <div class="card-grid">
+      {%- for project in featured_projects limit: 2 %}
+      {% include project-card.html project=project %}
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- if site.posts.size > 0 %}
+  <section class="home-section" aria-labelledby="home-posts">
+    <div class="home-section__header">
+      <h2 id="home-posts">Latest AI Insights</h2>
+      <a href="{{ '/insights/' | relative_url }}">All posts &rarr;</a>
+    </div>
+    <div class="card-grid">
+      {%- for post in site.posts limit: 2 %}
+      {% include post-card.html post=post %}
+      {%- endfor %}
+    </div>
+  </section>
+  {%- endif %}
+
+</div>

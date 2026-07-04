@@ -1,0 +1,12 @@
+# News items shown on the home page (newest first).
+# Fields: date (YYYY-MM-DD), text (Markdown allowed).
+- date: 2026-06-15
+  text: "Presented preliminary findings on AI-supported feedback and academic procrastination at the Faculty of Education doctoral forum, Southwest University."
+- date: 2026-04-02
+  text: "Began data collection for a study linking LMS trace data with self-reported procrastination among undergraduate students."
+- date: 2026-01-20
+  text: "Working paper on detecting academic procrastination from learning-management-system logs is now available on the [publications page](/publications/)."
+- date: 2025-11-08
+  text: "Joined a cross-university reading group on large language models in education, connecting doctoral students in Chongqing and East Africa."
+- date: 2025-09-01
+  text: "Started the new academic year as a PhD student at Southwest University while continuing to supervise undergraduate projects at Zanzibar University."

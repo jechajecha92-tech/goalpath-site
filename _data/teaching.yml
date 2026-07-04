@@ -1,0 +1,38 @@
+# Courses and supervision rendered on the teaching page.
+courses:
+  - code: EDU 211
+    title: Introduction to Educational Technology
+    institution: Zanzibar University
+    level: Undergraduate
+    role: Assistant Lecturer
+    description: >-
+      Foundations of technology-enhanced teaching and learning: learning
+      theories behind educational media, evaluating digital tools, and
+      designing technology-supported lessons for local classroom realities.
+  - code: EDU 324
+    title: Research Methods in Education
+    institution: Zanzibar University
+    level: Undergraduate
+    role: Assistant Lecturer
+    description: >-
+      Quantitative and qualitative research design for education students:
+      framing researchable questions, instruments and sampling, basic
+      statistics, and academic writing, culminating in a small empirical
+      study.
+  - code: EDU 118
+    title: ICT Skills for Educators
+    institution: Zanzibar University
+    level: Undergraduate
+    role: Assistant Lecturer
+    description: >-
+      Practical digital literacy for future teachers — productivity tools,
+      open educational resources, and responsible, critical use of AI
+      assistants for lesson preparation.
+
+supervision:
+  - level: Undergraduate final-year projects
+    institution: Zanzibar University
+    topics: >-
+      Educational technology adoption, study habits and time management,
+      mobile learning in low-connectivity settings, and teachers' use of AI
+      tools. Typically 3–5 students per academic year.

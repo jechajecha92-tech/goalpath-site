@@ -1,0 +1,59 @@
+# Research software and academic projects.
+# Fields: name, role, status, description, tech (list), url (optional),
+#         featured (shown on the home page).
+- name: ProcrastiScope
+  role: Lead developer & researcher
+  status: In development
+  featured: true
+  description: >-
+    An open research toolkit that computes procrastination indicators from
+    learning-management-system trace data — submission lateness, session
+    spacing, and deadline-proximity patterns — so that researchers can study
+    academic delay from behavior rather than self-report alone.
+  tech:
+    - Python
+    - pandas
+    - Moodle logs
+  url: "https://github.com/jechajecha92-tech/procrastiscope"
+
+- name: SRL Coach
+  role: Doctoral project
+  status: Design & pilot phase
+  featured: true
+  description: >-
+    A design-based research project prototyping AI-generated,
+    self-regulated-learning-informed feedback for university students. The
+    prototype turns weekly study plans and LMS activity into short
+    motivational and strategic prompts, and is the intervention platform for
+    my dissertation studies.
+  tech:
+    - Claude API
+    - Flask
+    - Learning analytics
+
+- name: Procrastination & AI Interventions Review Corpus
+  role: Maintainer
+  status: Ongoing
+  featured: false
+  description: >-
+    A curated, openly documented corpus of empirical studies on
+    technology-supported interventions for academic procrastination and
+    self-regulated learning, maintained alongside my systematic review with
+    search protocols and screening decisions.
+  tech:
+    - PRISMA
+    - Zotero
+    - Open science
+
+- name: EdTech Methods Materials for Zanzibar University
+  role: Author & lecturer
+  status: Ongoing
+  featured: false
+  description: >-
+    Open teaching materials for undergraduate educational technology and
+    research methods courses at Zanzibar University, designed for
+    low-bandwidth contexts: printable handouts, offline-first activities,
+    and locally relevant case studies.
+  tech:
+    - Markdown
+    - Open educational resources

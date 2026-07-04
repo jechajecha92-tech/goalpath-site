@@ -123,6 +123,12 @@
   }
 }
 
+.card-list {
+  display: grid;
+  gap: $space-md;
+  margin-bottom: $space-md;
+}
+
 .card-grid {
   display: grid;
   gap: $space-md;

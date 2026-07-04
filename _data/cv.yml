@@ -1,0 +1,53 @@
+# CV content rendered on /cv/ — edit here, then regenerate the PDF in
+# assets/files/jecha-s-jecha-cv.pdf to match.
+education:
+  - degree: PhD in Educational Technology (in progress)
+    institution: Southwest University
+    location: Chongqing, China
+    period: 2024 – present
+    detail: >-
+      Dissertation research on AI-supported interventions for academic
+      procrastination and self-regulated learning in higher education.
+  - degree: Master of Education (Educational Technology)
+    institution: Southwest University
+    location: Chongqing, China
+    period: 2021 – 2024
+    detail: >-
+      Thesis on self-regulated learning and online study behavior of
+      undergraduate students.
+  - degree: Bachelor of Education
+    institution: Zanzibar University
+    location: Zanzibar, Tanzania
+    period: 2016 – 2019
+    detail: Graduated with honours; specialization in ICT in education.
+
+appointments:
+  - title: Assistant Lecturer
+    institution: Zanzibar University
+    location: Zanzibar, Tanzania
+    period: 2020 – present
+    detail: >-
+      Teaching undergraduate courses in educational technology, ICT skills,
+      and research methods; supervising final-year student projects.
+  - title: Graduate Research Assistant
+    institution: Southwest University, Faculty of Education
+    location: Chongqing, China
+    period: 2022 – 2024
+    detail: >-
+      Supported research projects on learning analytics and online learning
+      behavior; contributed to data collection and analysis.
+
+skills:
+  - area: Research methods
+    items: Quantitative and qualitative design, systematic reviews (PRISMA), survey and instrument development
+  - area: Data & analytics
+    items: Python (pandas, scikit-learn), R, SPSS, learning-management-system log analysis
+  - area: Educational technology
+    items: LMS administration (Moodle), instructional design, AI-assisted learning tools
+  - area: Languages
+    items: Swahili (native), English (fluent), Chinese (intermediate)
+
+service:
+  - "Reviewer for student research conferences at Zanzibar University."
+  - "Coordinator of a cross-university doctoral reading group on large language models in education (Chongqing / East Africa)."
+  - "Mentor for first-generation university students navigating postgraduate applications."

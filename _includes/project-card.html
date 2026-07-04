@@ -1,0 +1,17 @@
+{%- comment -%}
+  Project card. Usage: {% include project-card.html project=project %}
+{%- endcomment -%}
+<article class="card">
+  <h3 class="card__title">
+    {%- if include.project.url -%}
+    <a href="{{ include.project.url }}" rel="noopener">{{ include.project.name }}</a>
+    {%- else -%}
+    {{ include.project.name }}
+    {%- endif -%}
+  </h3>
+  <p class="card__meta">{{ include.project.role }} &middot; {{ include.project.status }}</p>
+  <p>{{ include.project.description }}</p>
+  {%- if include.project.tech %}
+  <p class="card__meta">{{ include.project.tech | join: " · " }}</p>
+  {%- endif %}
+</article>
