@@ -306,7 +306,7 @@
   }
 }
 
-// Home hero
+// Home hero — al-folio-style intro with a floated profile photo
 .hero {
   position: relative;
   margin-bottom: $space-2xl;
@@ -322,6 +322,13 @@
     pointer-events: none;
   }
 
+  // clear the floated profile card
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
   &__name {
     font-size: $font-size-hero;
     font-weight: 500;
@@ -334,11 +341,11 @@
     font-size: $font-size-lg;
     color: $color-text-muted;
     margin-bottom: $space-lg;
-    max-width: 44ch;
+    max-width: 42ch;
   }
 
   &__statement {
-    max-width: 54ch;
+    max-width: 52ch;
     margin-bottom: $space-lg;
   }
 
@@ -347,6 +354,51 @@
     flex-wrap: wrap;
     gap: $space-sm;
     margin-bottom: $space-md;
+    clear: both;
+  }
+}
+
+// Profile photo card (floated right within the hero)
+.profile-card {
+  float: right;
+  width: 300px;
+  max-width: 42%;
+  margin: 0 0 $space-md $space-xl;
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 300 / 373;
+    object-fit: cover;
+    border-radius: $radius-lg;
+    box-shadow: $shadow;
+    background: $color-surface-2;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $space-2xs $space-md;
+    margin-top: $space-sm;
+    font-size: $font-size-sm;
+    font-weight: 500;
+
+    a {
+      color: $color-text;
+
+      &:hover { color: $color-accent; }
+    }
+  }
+}
+
+@media (max-width: 34rem) {
+  .profile-card {
+    float: none;
+    width: 220px;
+    max-width: 66%;
+    margin: 0 auto $space-lg;
   }
 }
 

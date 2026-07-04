@@ -13,6 +13,7 @@ timezone: Asia/Shanghai
 # Author profile (used across layouts, SEO, and structured data)
 author:
   name: Jecha S Jecha
+  photo: /assets/images/profile.jpg      # replace with a real portrait
   email: jecha@zanvarsity.ac.tz          # institutional (primary)
   email_personal: jechasulieman@gmail.com
   wechat: Jecha_Jecha

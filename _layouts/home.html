@@ -5,6 +5,18 @@ layout: default
 
   <section class="hero">
     <h1 class="hero__name">{{ site.author.name }}</h1>
+
+    {%- if site.author.photo %}
+    <figure class="profile-card">
+      <img class="profile-card__img" src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" width="300" height="373">
+      <figcaption class="profile-card__links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ site.author.google_scholar }}" rel="me noopener">Scholar</a>
+        <a href="{{ site.author.orcid }}" rel="me noopener">ORCID</a>
+      </figcaption>
+    </figure>
+    {%- endif %}
+
     <p class="hero__positions">
       {%- for pos in site.author.positions -%}
       {{ pos.title }}, {{ pos.institution }}{% unless forloop.last %} &middot; {% endunless %}
@@ -23,7 +35,6 @@ layout: default
       <a class="button button--primary" href="{{ '/assets/files/jecha-s-jecha-cv.pdf' | relative_url }}" download>Download CV (PDF)</a>
       <a class="button" href="{{ '/contact/' | relative_url }}">Get in touch</a>
     </div>
-    {% include profile-links.html %}
   </section>
 
   {%- if site.data.news %}
