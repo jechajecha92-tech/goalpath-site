@@ -216,55 +216,57 @@
 
   &__venue em { font-style: italic; }
 
-  &__links {
-    list-style: none;
-    margin: $space-sm 0 0;
-    padding: 0;
+  // Links and disclosure toggles, all on one wrapping row
+  &__actions {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: $space-xs;
+    margin-top: $space-sm;
     font-family: $font-ui;
     font-size: $font-size-xs;
     font-weight: 600;
+  }
 
-    a {
-      display: inline-block;
-      padding: 0.25rem 0.65rem;
-      color: $color-accent-dark;
-      background: $color-accent-tint;
-      border-radius: $radius-pill;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
+  // Pill styling shared by link buttons and disclosure summaries
+  &__actions > a,
+  &__disc > summary {
+    display: inline-block;
+    padding: 0.25rem 0.65rem;
+    color: $color-accent-dark;
+    background: $color-accent-tint;
+    border-radius: $radius-pill;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
 
-      &:hover {
-        background: $color-accent;
-        color: #fff;
-      }
+    &::-webkit-details-marker { display: none; }
+
+    &:hover {
+      background: $color-accent;
+      color: #fff;
     }
   }
 
-  details {
-    margin-top: $space-sm;
-    font-size: $font-size-sm;
-
-    summary {
-      cursor: pointer;
-      font-weight: 600;
-      color: $color-accent;
-      list-style: none;
-
-      &::-webkit-details-marker { display: none; }
-
-      &::before {
-        content: "+ ";
-        font-weight: 700;
-      }
+  &__disc {
+    // When open, break to its own full-width line with the panel below
+    &[open] {
+      flex-basis: 100%;
     }
+  }
 
-    &[open] summary::before { content: "\2212 "; }
+  &__panel {
+    margin-top: $space-sm;
+    font-family: $font-body;
+    font-size: $font-size-sm;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    color: $color-text;
 
-    pre { margin-top: $space-sm; }
-    p { margin-top: $space-sm; }
+    p { margin: 0; }
+    pre { margin: 0 0 $space-xs; }
   }
 }
 
@@ -317,8 +319,8 @@
 // Home hero — al-folio-style intro with a floated profile photo
 .hero {
   position: relative;
-  margin-bottom: $space-2xl;
-  padding: $space-lg 0 $space-xl;
+  margin-bottom: $space-xl;
+  padding: $space-md 0 $space-lg;
 
   &::before {
     content: "";
@@ -433,7 +435,7 @@
 }
 
 .home-section {
-  margin-bottom: $space-2xl;
+  margin-bottom: $space-xl;
 
   &:last-child { margin-bottom: 0; }
 }

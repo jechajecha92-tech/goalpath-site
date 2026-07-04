@@ -2,28 +2,39 @@
 # Course titles describe the author's teaching areas in the Faculty of
 # Science, Zanzibar University. Add exact course codes when available.
 courses:
-  - title: Information Technology (Faculty of Science)
+  - code: IT102
+    title: Computer Programming Methodology
     institution: Zanzibar University
     level: Undergraduate
     role: Assistant Lecturer
     description: >-
-      Lecturing and leading tutorials, seminars, and practical sessions in
-      information technology within the Faculty of Science, including
-      setting, marking, and invigilating university examinations.
-  - title: Information Technology with Education
+      Foundations of programming and problem-solving — algorithms, control
+      structures, and structured programming practice for early-stage IT
+      students.
+  - code: IT306
+    title: Web Design, Programming and Administration
     institution: Zanzibar University
     level: Undergraduate
     role: Assistant Lecturer
     description: >-
-      Teaching on the BSc in Information Technology with Education, connecting
-      computing skills with classroom pedagogy for future educators.
-  - title: Computer Skills Training
-    institution: Various schools & institutions, Zanzibar
-    level: Professional / short course
-    role: Trainer
+      Building and running web applications: front-end design, server-side
+      programming, and the deployment and administration of web systems.
+  - code: IT512
+    title: ICT Teaching Methods
+    institution: Zanzibar University
+    level: Postgraduate
+    role: Assistant Lecturer
     description: >-
-      Delivering practical computer and IT training courses, including AI
-      training for academics and research-methods training.
+      Pedagogy for computing and ICT education — curriculum design,
+      instructional strategies, and assessment for teaching technology.
+  - code: IT513
+    title: IT Project Management
+    institution: Zanzibar University
+    level: Postgraduate
+    role: Assistant Lecturer
+    description: >-
+      Planning and delivering IT projects: scope, scheduling, budgeting,
+      risk, and leading project teams to completion.
 
 supervision:
   - level: Undergraduate final-year projects

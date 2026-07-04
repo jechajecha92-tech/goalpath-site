@@ -9,31 +9,33 @@
   <h3 class="pub__title">{{ include.pub.title }}</h3>
   <p class="pub__authors">{{ include.pub.authors }} ({{ include.pub.year }})</p>
   <p class="pub__venue"><em>{{ include.pub.venue }}</em>{% if include.pub.status %} &middot; {{ include.pub.status }}{% endif %}</p>
-  <ul class="pub__links">
+  <div class="pub__actions">
     {%- if include.pub.doi %}
-    <li><a href="{{ include.pub.doi }}" rel="noopener">DOI</a></li>
+    <a href="{{ include.pub.doi }}" rel="noopener">DOI</a>
     {%- endif %}
     {%- if include.pub.pdf %}
-    <li><a href="{{ include.pub.pdf | relative_url }}" rel="noopener">PDF</a></li>
+    <a href="{{ include.pub.pdf | relative_url }}" rel="noopener">PDF</a>
     {%- endif %}
     {%- if include.pub.dataset %}
-    <li><a href="{{ include.pub.dataset }}" rel="noopener">Dataset</a></li>
+    <a href="{{ include.pub.dataset }}" rel="noopener">Dataset</a>
     {%- endif %}
     {%- if include.pub.code %}
-    <li><a href="{{ include.pub.code }}" rel="noopener">Code</a></li>
+    <a href="{{ include.pub.code }}" rel="noopener">Code</a>
     {%- endif %}
-  </ul>
-  {%- if include.pub.abstract %}
-  <details>
-    <summary>Abstract</summary>
-    <p>{{ include.pub.abstract }}</p>
-  </details>
-  {%- endif %}
-  {%- if include.pub.bibtex %}
-  <details>
-    <summary>BibTeX</summary>
-    <pre id="{{ pub_id }}-bibtex"><code>{{ include.pub.bibtex | strip }}</code></pre>
-    <button class="pub-copy" type="button" data-copy-target="{{ pub_id }}-bibtex">Copy BibTeX</button>
-  </details>
-  {%- endif %}
+    {%- if include.pub.abstract %}
+    <details class="pub__disc">
+      <summary>Abstract</summary>
+      <div class="pub__panel"><p>{{ include.pub.abstract }}</p></div>
+    </details>
+    {%- endif %}
+    {%- if include.pub.bibtex %}
+    <details class="pub__disc">
+      <summary>BibTeX</summary>
+      <div class="pub__panel">
+        <pre id="{{ pub_id }}-bibtex"><code>{{ include.pub.bibtex | strip }}</code></pre>
+        <button class="pub-copy" type="button" data-copy-target="{{ pub_id }}-bibtex">Copy BibTeX</button>
+      </div>
+    </details>
+    {%- endif %}
+  </div>
 </article>

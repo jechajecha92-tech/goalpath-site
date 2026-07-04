@@ -30,7 +30,7 @@ Three commitments run through my teaching:
 <div class="card-list" markdown="0">
 {% for course in site.data.teaching.courses %}
 <article class="card">
-  <h3 class="card__title">{{ course.title }}</h3>
+  <h3 class="card__title">{{ course.code }} — {{ course.title }}</h3>
   <p class="card__meta">{{ course.level }} &middot; {{ course.institution }} &middot; {{ course.role }}</p>
   <p>{{ course.description }}</p>
 </article>

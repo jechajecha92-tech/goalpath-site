@@ -42,7 +42,7 @@ See the [publications page](/publications/) for abstracts, DOIs, and BibTeX.
 ## Teaching
 
 {% for course in site.data.teaching.courses %}
-- **{{ course.title }}** — {{ course.institution }} ({{ course.role }})
+- **{{ course.code }} {{ course.title }}** — {{ course.institution }} ({{ course.level }})
 {%- endfor %}
 
 ## Skills
