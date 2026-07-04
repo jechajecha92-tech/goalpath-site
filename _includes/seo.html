@@ -1,0 +1,117 @@
+{%- comment -%}
+  SEO metadata: title, description, canonical URL, Open Graph, Twitter Cards,
+  and JSON-LD structured data (Person / BlogPosting / ScholarlyArticle list).
+{%- endcomment -%}
+{%- assign page_title = page.title | default: site.title -%}
+{%- if page.url == "/" -%}
+  {%- capture full_title -%}{{ site.title }} — {{ site.tagline }}{%- endcapture -%}
+{%- else -%}
+  {%- capture full_title -%}{{ page_title }} | {{ site.title }}{%- endcapture -%}
+{%- endif -%}
+{%- assign page_description = page.description | default: site.description | strip_newlines | strip -%}
+{%- assign canonical = page.url | replace: "index.html", "" | absolute_url -%}
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<meta name="author" content="{{ site.author.name }}">
+<link rel="canonical" href="{{ canonical }}">
+
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ full_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:image" content="{{ '/assets/images/og-card.svg' | absolute_url }}">
+<meta property="og:locale" content="en_US">
+{%- if page.layout == 'post' %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+<meta property="article:author" content="{{ site.author.name }}">
+{%- endif %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ full_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+<meta name="twitter:image" content="{{ '/assets/images/og-card.svg' | absolute_url }}">
+
+{%- if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page_description | jsonify }},
+  "url": {{ canonical | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": {{ site.author.name | jsonify }},
+    "url": {{ site.url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": {{ site.author.name | jsonify }},
+    "url": {{ site.url | jsonify }}
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ canonical | jsonify }} }
+}
+</script>
+{%- elsif page.url == "/publications/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Publications by {{ site.author.name }}",
+  "itemListElement": [
+    {%- for pub in site.data.publications %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "ScholarlyArticle",
+        "headline": {{ pub.title | jsonify }},
+        "author": {{ pub.authors | jsonify }},
+        "datePublished": {{ pub.year | jsonify }},
+        {%- if pub.venue %}
+        "isPartOf": { "@type": "Periodical", "name": {{ pub.venue | jsonify }} },
+        {%- endif %}
+        {%- if pub.doi %}
+        "sameAs": {{ pub.doi | jsonify }},
+        {%- endif %}
+        {%- if pub.abstract %}
+        "abstract": {{ pub.abstract | jsonify }},
+        {%- endif %}
+        "url": {{ '/publications/' | absolute_url | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]
+}
+</script>
+{%- else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "email": "mailto:{{ site.author.email }}",
+  "jobTitle": [{% for pos in site.author.positions %}{{ pos.title | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "affiliation": [
+    {%- for pos in site.author.positions %}
+    {
+      "@type": "EducationalOrganization",
+      "name": {{ pos.institution | jsonify }},
+      "address": {{ pos.location | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ],
+  "knowsAbout": {{ site.author.research_interests | jsonify }},
+  "sameAs": [
+    {{ site.author.orcid | jsonify }},
+    {{ site.author.google_scholar | jsonify }},
+    {{ site.author.github | jsonify }},
+    {{ site.author.linkedin | jsonify }}
+  ]
+}
+</script>
+{%- endif %}

@@ -1,0 +1,11 @@
+{%- comment -%}
+  Academic profile links. Pass context="footer" for the compact variant.
+  Usage: {% include profile-links.html %} or {% include profile-links.html context="footer" %}
+{%- endcomment -%}
+<ul class="profile-links{% if include.context == 'footer' %} profile-links--compact{% endif %}" aria-label="Academic profiles">
+  <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+  <li><a href="{{ site.author.google_scholar }}" rel="me noopener">Google Scholar</a></li>
+  <li><a href="{{ site.author.orcid }}" rel="me noopener">ORCID</a></li>
+  <li><a href="{{ site.author.github }}" rel="me noopener">GitHub</a></li>
+  <li><a href="{{ site.author.linkedin }}" rel="me noopener">LinkedIn</a></li>
+</ul>

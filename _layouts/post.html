@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="container">
+  <article class="page post">
+    <header class="page__header">
+      <h1 class="page__title">{{ page.title }}</h1>
+      <p class="post__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        {%- if page.tags and page.tags.size > 0 %}
+        <span class="post__tags">
+          {%- for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+          {%- endfor %}
+        </span>
+        {%- endif %}
+      </p>
+    </header>
+    <div class="page__content prose">
+      {{ content }}
+    </div>
+    <footer class="post__footer">
+      <a href="{{ '/insights/' | relative_url }}">&larr; All AI Insights</a>
+    </footer>
+  </article>
+</div>
