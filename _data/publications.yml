@@ -1,0 +1,78 @@
+# Publications — newest first.
+# type: journal | conference | chapter | working | preprint
+# Optional fields: doi, pdf, bibtex, abstract, dataset, code, status, featured
+- title: "Detecting Academic Procrastination from Learning Management System Logs: A Behavioral Indicators Approach"
+  authors: "Jecha, J. S."
+  year: 2026
+  type: preprint
+  status: "Preprint"
+  venue: "EdArXiv"
+  featured: true
+  # Add doi: and pdf: once the preprint is registered
+  code: "https://github.com/jechajecha92-tech/procrastiscope"
+  abstract: >-
+    Self-report questionnaires dominate procrastination research, yet delay
+    is fundamentally behavioral. This paper proposes a set of indicators —
+    submission lateness, session spacing, and deadline-proximity activity
+    ratios — computable from standard Moodle logs, and examines their
+    relationship with the Academic Procrastination Scale in an undergraduate
+    sample. Results suggest trace-based indicators capture a distinct,
+    behavior-proximal dimension of procrastination that self-report misses,
+    with implications for early-warning learning analytics.
+  bibtex: |
+    @unpublished{jecha2026detecting,
+      author  = {Jecha, Jecha S.},
+      title   = {Detecting Academic Procrastination from Learning Management
+                 System Logs: A Behavioral Indicators Approach},
+      note    = {Preprint, EdArXiv},
+      year    = {2026}
+    }
+
+- title: "AI-Based Interventions for Academic Procrastination and Self-Regulated Learning: A Systematic Review Protocol"
+  authors: "Jecha, J. S."
+  year: 2026
+  type: working
+  status: "Working paper"
+  venue: "Southwest University, Faculty of Education"
+  featured: true
+  abstract: >-
+    Registered protocol for a PRISMA-guided systematic review of empirical
+    studies in which artificial intelligence — adaptive systems,
+    conversational agents, or LLM-generated feedback — is used to reduce
+    academic procrastination or scaffold self-regulated learning in higher
+    education. The protocol defines search strategy, inclusion criteria,
+    and a coding framework distinguishing which phase of the self-regulation
+    cycle each intervention targets.
+  bibtex: |
+    @techreport{jecha2026review,
+      author      = {Jecha, Jecha S.},
+      title       = {AI-Based Interventions for Academic Procrastination and
+                     Self-Regulated Learning: A Systematic Review Protocol},
+      institution = {Southwest University, Faculty of Education},
+      type        = {Working paper},
+      year        = {2026}
+    }
+
+- title: "Self-Regulated Learning and Online Study Behavior of Undergraduate Students in Zanzibar: An Exploratory Study"
+  authors: "Jecha, J. S."
+  year: 2025
+  type: conference
+  status: "Conference paper"
+  venue: "Proceedings of the East African Conference on Educational Technology"
+  featured: true
+  abstract: >-
+    An exploratory study of how undergraduate students at a Tanzanian
+    university plan, monitor, and complete online coursework under
+    conditions of limited connectivity and shared devices. Findings
+    highlight coping strategies invisible to mainstream self-regulated
+    learning instruments and motivate context-sensitive measurement for
+    low-resource settings.
+  bibtex: |
+    @inproceedings{jecha2025srl,
+      author    = {Jecha, Jecha S.},
+      title     = {Self-Regulated Learning and Online Study Behavior of
+                   Undergraduate Students in Zanzibar: An Exploratory Study},
+      booktitle = {Proceedings of the East African Conference on Educational
+                   Technology},
+      year      = {2025}
+    }
