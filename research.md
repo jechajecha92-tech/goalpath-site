@@ -46,10 +46,13 @@ and classroom furniture to the interaction design of everyday systems.
 
 ## Current work
 
-My doctoral research develops these threads into a coherent program on AI
-adoption and AI-supported learning in higher education, combining survey and
-structural-equation methods with systematic review and case studies drawn
-from Zanzibar and the wider region.
+My doctoral dissertation is **"Designing an AI-Enhanced Scaffolding Model to
+Reduce Academic Procrastination Among Undergraduates at Zanzibar University:
+A Design-Based Research."** It brings my threads together into one program:
+using **design-based research** to iteratively build and test an AI-enhanced
+scaffolding model that helps undergraduates recognise, plan around, and
+overcome academic procrastination — grounded in self-regulated learning
+theory and evaluated in authentic Zanzibar University courses.
 
 ## Future directions
 

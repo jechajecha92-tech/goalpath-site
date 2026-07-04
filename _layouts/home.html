@@ -25,6 +25,12 @@ layout: default
     <div class="hero__statement prose">
       {{ content }}
     </div>
+    {%- if site.author.dissertation %}
+    <aside class="dissertation">
+      <span class="eyebrow">Current PhD Dissertation</span>
+      <p class="dissertation__title">{{ site.author.dissertation }}</p>
+    </aside>
+    {%- endif %}
     <h2 class="visually-hidden">Research interests</h2>
     <ul class="tag-list">
       {%- for interest in site.author.research_interests %}

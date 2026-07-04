@@ -36,10 +36,10 @@ h3,
 h4 {
   font-family: $font-display;
   color: $color-ink;
-  line-height: 1.14;
+  line-height: 1.16;
   margin: 0 0 $space-sm;
-  font-weight: 500;
-  letter-spacing: -0.015em;
+  font-weight: 400; // Goudy Old Style has no bold weight; size carries hierarchy
+  letter-spacing: 0;
 }
 
 h1 { font-size: $font-size-h1; }
@@ -178,7 +178,7 @@ table {
 // Small uppercase eyebrow label used above section / page headings
 .eyebrow {
   display: inline-block;
-  font-family: $font-body;
+  font-family: $font-ui;
   font-size: $font-size-xs;
   font-weight: 600;
   letter-spacing: 0.14em;

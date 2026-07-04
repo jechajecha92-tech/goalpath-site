@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 # Author profile (used across layouts, SEO, and structured data)
 author:
   name: Jecha S Jecha
-  photo: /assets/images/profile.jpg      # replace with a real portrait
+  photo: /assets/images/jecha.jpg
   email: jecha@zanvarsity.ac.tz          # institutional (primary)
   email_personal: jechasulieman@gmail.com
   wechat: Jecha_Jecha
@@ -24,13 +24,17 @@ author:
     - title: Assistant Lecturer, Faculty of Science
       institution: Zanzibar University
       location: Zanzibar, Tanzania
+  dissertation: >-
+    Designing an AI-Enhanced Scaffolding Model to Reduce Academic
+    Procrastination Among Undergraduates at Zanzibar University: A
+    Design-Based Research
   research_interests:
     - Artificial Intelligence in Education
-    - AI Adoption in Higher Education
+    - Academic Procrastination
     - Self-Regulated Learning
+    - AI Adoption in Higher Education
     - Educational Technology
     - Human-AI Interaction
-    - Human Factors and Ergonomics
   # Verified academic profiles
   orcid: "https://orcid.org/0000-0002-7784-0994"
   google_scholar: "https://scholar.google.com/citations?user=Hx_X6f8AAAAJ&hl=en"
