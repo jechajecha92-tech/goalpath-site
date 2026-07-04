@@ -1,0 +1,19 @@
+# Site navigation — single source of truth used by _includes/header.html
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
+- title: Projects
+  url: /projects/
+- title: Teaching
+  url: /teaching/
+- title: AI Insights
+  url: /insights/
+- title: CV
+  url: /cv/
+- title: Contact
+  url: /contact/
