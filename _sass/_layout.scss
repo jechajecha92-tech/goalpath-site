@@ -17,7 +17,8 @@
   top: 0;
   z-index: 50;
   background: $color-header-bg;
-  backdrop-filter: blur(6px);
+  backdrop-filter: saturate(1.4) blur(10px);
+  -webkit-backdrop-filter: saturate(1.4) blur(10px);
   border-bottom: 1px solid $color-border;
 
   &__inner {
@@ -32,13 +33,16 @@
   }
 
   &__brand {
-    font-weight: 700;
-    font-size: $font-size-lg;
-    color: $color-text;
-    text-decoration: none;
+    font-family: $font-display;
+    font-weight: 500;
+    font-size: 1.32rem;
+    letter-spacing: -0.02em;
+    color: $color-ink;
+    background: none;
 
     &:hover {
       color: $color-accent;
+      background: none;
     }
   }
 }
@@ -51,11 +55,17 @@
   padding: $space-xs $space-sm;
   font: inherit;
   font-size: $font-size-sm;
-  color: $color-text;
-  background: none;
-  border: 1px solid $color-border;
+  font-weight: 500;
+  color: $color-ink;
+  background: $color-surface;
+  border: 1px solid $color-border-strong;
   border-radius: $radius;
   cursor: pointer;
+  transition: border-color $transition;
+
+  &:hover {
+    border-color: $color-accent;
+  }
 
   &__bar {
     display: block;
@@ -77,28 +87,28 @@
   &__list {
     list-style: none;
     margin: 0;
-    padding: $space-xs 0 $space-sm;
+    padding: $space-sm 0 $space-xs;
     display: flex;
     flex-direction: column;
-    gap: $space-xs;
+    gap: $space-2xs;
   }
 
   a {
     display: block;
     padding: $space-xs 0;
     color: $color-text;
-    text-decoration: none;
+    background: none;
     font-size: $font-size-sm;
     font-weight: 500;
 
     &:hover {
       color: $color-accent;
+      background: none;
     }
 
     &[aria-current="page"] {
       color: $color-accent;
-      box-shadow: inset 3px 0 0 $color-accent;
-      padding-left: $space-sm;
+      font-weight: 600;
     }
   }
 }
@@ -119,11 +129,25 @@
     }
 
     a {
-      padding: $space-xs 0;
+      position: relative;
+      padding: $space-2xs 0;
 
-      &[aria-current="page"] {
-        box-shadow: inset 0 -2px 0 $color-accent;
-        padding-left: 0;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -3px;
+        height: 2px;
+        background: $color-accent;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform $transition;
+      }
+
+      &:hover::after,
+      &[aria-current="page"]::after {
+        transform: scaleX(1);
       }
     }
   }
@@ -140,36 +164,57 @@
     margin-bottom: $space-lg;
   }
 
+  &__title {
+    font-size: $font-size-h1;
+  }
+
   &__subtitle {
     color: $color-text-muted;
     font-size: $font-size-lg;
-    margin: 0;
+    margin: $space-xs 0 0;
+    max-width: 40ch;
   }
 }
 
-// Footer
+// Premium dark footer
 .site-footer {
-  border-top: 1px solid $color-border;
-  background: $color-bg-subtle;
-  padding: $space-lg 0;
+  background: $color-footer-bg;
+  color: $color-footer-text;
+  padding: $space-xl 0 $space-lg;
   font-size: $font-size-sm;
-  color: $color-text-muted;
 
   &__inner {
     max-width: $container-wide;
-    display: flex;
-    flex-direction: column;
-    gap: $space-sm;
+    display: grid;
+    gap: $space-md;
   }
 
   &__name {
-    font-weight: 650;
-    color: $color-text;
-    margin: 0;
+    font-family: $font-display;
+    font-size: 1.235rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 $space-2xs;
   }
 
-  &__meta,
-  &__copyright {
+  &__meta {
     margin: 0;
+    max-width: 46ch;
+  }
+
+  &__copyright {
+    margin: $space-sm 0 0;
+    padding-top: $space-md;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    color: darken($color-footer-text, 12%);
+  }
+
+  a {
+    color: #fff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+
+    &:hover {
+      color: #fff;
+    }
   }
 }

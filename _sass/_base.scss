@@ -22,6 +22,9 @@ body {
   line-height: $line-height-base;
   color: $color-text;
   background: $color-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -31,15 +34,21 @@ h1,
 h2,
 h3,
 h4 {
-  line-height: 1.25;
+  font-family: $font-display;
+  color: $color-ink;
+  line-height: 1.14;
   margin: 0 0 $space-sm;
-  font-weight: 650;
-  letter-spacing: -0.01em;
+  font-weight: 500;
+  letter-spacing: -0.015em;
 }
 
 h1 { font-size: $font-size-h1; }
 h2 { font-size: $font-size-h2; }
-h3 { font-size: $font-size-h3; }
+h3 {
+  font-size: $font-size-h3;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
 
 p,
 ul,
@@ -50,12 +59,22 @@ dl {
 
 a {
   color: $color-accent;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.15em;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1.5px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size $transition, color $transition;
 
   &:hover {
     color: $color-accent-dark;
+    background-size: 100% 1.5px;
   }
+}
+
+::selection {
+  background: $color-accent-tint;
+  color: $color-accent-dark;
 }
 
 img {
@@ -66,18 +85,19 @@ img {
 code,
 pre {
   font-family: $font-mono;
-  font-size: 0.9em;
-  background: $color-bg-subtle;
+  font-size: 0.88em;
+  background: $color-surface-2;
   border-radius: $radius;
 }
 
 code {
-  padding: 0.1em 0.35em;
+  padding: 0.12em 0.4em;
 }
 
 pre {
   padding: $space-md;
   overflow-x: auto;
+  border: 1px solid $color-border;
 
   code {
     padding: 0;
@@ -87,9 +107,10 @@ pre {
 
 blockquote {
   margin: 0 0 $space-md;
-  padding-left: $space-md;
-  border-left: 3px solid $color-border;
+  padding: $space-xs 0 $space-xs $space-md;
+  border-left: 2px solid $color-accent;
   color: $color-text-muted;
+  font-style: italic;
 }
 
 hr {
@@ -102,20 +123,26 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: $space-md;
+  font-size: $font-size-sm;
 
   th,
   td {
     text-align: left;
-    padding: $space-xs $space-sm;
+    padding: $space-sm;
     border-bottom: 1px solid $color-border;
+  }
+
+  th {
+    font-weight: 600;
+    color: $color-ink;
   }
 }
 
 // Visible focus for keyboard users (WCAG 2.4.7 / 2.4.11)
 :focus-visible {
   outline: 2px solid $color-accent;
-  outline-offset: 2px;
-  border-radius: 2px;
+  outline-offset: 3px;
+  border-radius: 3px;
 }
 
 // Skip link: hidden until focused
@@ -125,9 +152,10 @@ table {
   top: $space-sm;
   z-index: 100;
   padding: $space-xs $space-sm;
-  background: $color-bg;
+  background: $color-surface;
   border: 2px solid $color-accent;
   border-radius: $radius;
+  font-weight: 500;
   transform: translateY(-200%);
 
   &:focus {
@@ -145,4 +173,16 @@ table {
   clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
+}
+
+// Small uppercase eyebrow label used above section / page headings
+.eyebrow {
+  display: inline-block;
+  font-family: $font-body;
+  font-size: $font-size-xs;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $color-accent;
+  margin: 0 0 $space-sm;
 }

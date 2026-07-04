@@ -28,8 +28,11 @@ layout: default
 
   {%- if site.data.news %}
   <section class="home-section" aria-labelledby="home-news">
-    <div class="home-section__header">
-      <h2 id="home-news">News</h2>
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Recent</span>
+        <h2 id="home-news">News</h2>
+      </div>
     </div>
     <ul class="news-list">
       {%- for item in site.data.news limit: 5 %}
@@ -45,9 +48,12 @@ layout: default
   {%- assign featured_pubs = site.data.publications | where: "featured", true %}
   {%- if featured_pubs.size > 0 %}
   <section class="home-section" aria-labelledby="home-pubs">
-    <div class="home-section__header">
-      <h2 id="home-pubs">Featured publications</h2>
-      <a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Research output</span>
+        <h2 id="home-pubs">Featured publications</h2>
+      </div>
+      <a class="section-head__link" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
     </div>
     {%- for pub in featured_pubs limit: 3 %}
     {% include publication.html pub=pub id_prefix="home" %}
@@ -58,13 +64,16 @@ layout: default
   {%- assign featured_projects = site.data.projects | where: "featured", true %}
   {%- if featured_projects.size > 0 %}
   <section class="home-section" aria-labelledby="home-projects">
-    <div class="home-section__header">
-      <h2 id="home-projects">Featured projects</h2>
-      <a href="{{ '/projects/' | relative_url }}">All projects &rarr;</a>
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Applied work</span>
+        <h2 id="home-projects">Featured projects</h2>
+      </div>
+      <a class="section-head__link" href="{{ '/projects/' | relative_url }}">All projects &rarr;</a>
     </div>
     <div class="card-grid">
       {%- for project in featured_projects limit: 2 %}
-      {% include project-card.html project=project %}
+      {% include project-card.html project=project heading="h3" %}
       {%- endfor %}
     </div>
   </section>
@@ -72,13 +81,16 @@ layout: default
 
   {%- if site.posts.size > 0 %}
   <section class="home-section" aria-labelledby="home-posts">
-    <div class="home-section__header">
-      <h2 id="home-posts">Latest AI Insights</h2>
-      <a href="{{ '/insights/' | relative_url }}">All posts &rarr;</a>
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Writing</span>
+        <h2 id="home-posts">Latest AI Insights</h2>
+      </div>
+      <a class="section-head__link" href="{{ '/insights/' | relative_url }}">All posts &rarr;</a>
     </div>
     <div class="card-grid">
       {%- for post in site.posts limit: 2 %}
-      {% include post-card.html post=post %}
+      {% include post-card.html post=post heading="h3" %}
       {%- endfor %}
     </div>
   </section>
