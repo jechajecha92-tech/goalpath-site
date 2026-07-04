@@ -22,7 +22,7 @@ courses:
   - code: IT512
     title: ICT Teaching Methods
     institution: Zanzibar University
-    level: Postgraduate
+    level: Undergraduate
     role: Assistant Lecturer
     description: >-
       Pedagogy for computing and ICT education — curriculum design,
@@ -30,7 +30,7 @@ courses:
   - code: IT513
     title: IT Project Management
     institution: Zanzibar University
-    level: Postgraduate
+    level: Undergraduate
     role: Assistant Lecturer
     description: >-
       Planning and delivering IT projects: scope, scheduling, budgeting,

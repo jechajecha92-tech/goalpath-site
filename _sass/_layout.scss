@@ -181,34 +181,32 @@
 .site-footer {
   background: $color-footer-bg;
   color: $color-footer-text;
-  padding: $space-xl 0 $space-lg;
+  padding: $space-md 0;
   font-family: $font-ui;
   font-size: $font-size-sm;
 
   &__inner {
     max-width: $container-wide;
-    display: grid;
-    gap: $space-md;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: $space-xs $space-md;
   }
 
   &__name {
     font-family: $font-display;
-    font-size: 1.235rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #fff;
-    margin: 0 0 $space-2xs;
-  }
-
-  &__meta {
     margin: 0;
-    max-width: 46ch;
   }
 
   &__copyright {
-    margin: $space-sm 0 0;
-    padding-top: $space-md;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    margin: 0;
+    flex-basis: 100%;
     color: darken($color-footer-text, 12%);
+    font-size: $font-size-xs;
   }
 
   a {

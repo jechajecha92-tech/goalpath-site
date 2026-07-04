@@ -21,10 +21,6 @@ learning. Email is the fastest way to reach me.
   <dt>WeChat</dt>
   <dd>{{ site.author.wechat }}</dd>
 
-  <dt>Office</dt>
-  <dd>Faculty of Education, Southwest University, Chongqing, China — <em>room to be added</em></dd>
-  <dd>Faculty of Science, Zanzibar University, Zanzibar, Tanzania — <em>room to be added</em></dd>
-
   <dt>Academic profiles</dt>
   <dd><a href="{{ site.author.orcid }}" rel="me noopener">ORCID</a></dd>
   <dd><a href="{{ site.author.google_scholar }}" rel="me noopener">Google Scholar</a></dd>
