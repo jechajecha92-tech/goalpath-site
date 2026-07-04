@@ -42,7 +42,7 @@ See the [publications page](/publications/) for abstracts, DOIs, and BibTeX.
 ## Teaching
 
 {% for course in site.data.teaching.courses %}
-- **{{ course.code }} {{ course.title }}** — {{ course.institution }} ({{ course.level }})
+- **{{ course.title }}** — {{ course.institution }} ({{ course.role }})
 {%- endfor %}
 
 ## Skills
@@ -51,7 +51,13 @@ See the [publications page](/publications/) for abstracts, DOIs, and BibTeX.
 - **{{ skill.area }}:** {{ skill.items }}
 {%- endfor %}
 
-## Service
+## Awards & recognition
+
+{% for item in site.data.cv.awards %}
+- **{{ item.year }}** — {{ item.text }}
+{%- endfor %}
+
+## Consultancy & service
 
 {% for item in site.data.cv.service %}
 - {{ item }}
@@ -59,6 +65,6 @@ See the [publications page](/publications/) for abstracts, DOIs, and BibTeX.
 
 ## Contact
 
-- Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
+- Email: [{{ site.author.email }}](mailto:{{ site.author.email }}) (institutional) · [{{ site.author.email_personal }}](mailto:{{ site.author.email_personal }})
 - Phone (China): {{ site.author.phone_china }}
 - Phone (Tanzania): {{ site.author.phone_tanzania }}

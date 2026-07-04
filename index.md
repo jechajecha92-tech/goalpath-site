@@ -2,18 +2,21 @@
 layout: home
 title: Home
 description: >-
-  Jecha S Jecha is a PhD student at Southwest University and Assistant
-  Lecturer at Zanzibar University researching AI in education, academic
-  procrastination, and self-regulated learning.
+  Jecha S Jecha is a PhD student in Educational Technology at Southwest
+  University and Assistant Lecturer at Zanzibar University, researching
+  artificial intelligence in education and AI adoption in higher education.
 permalink: /
 ---
-I am a PhD student in the Faculty of Education at **Southwest University**
-(Chongqing, China) and an Assistant Lecturer at **Zanzibar University**. My
-research examines how artificial intelligence can help learners overcome
-academic procrastination and build self-regulated learning skills.
+I am a PhD student in **Educational Technology** at **Southwest University**
+(Chongqing, China) and an Assistant Lecturer in the Faculty of Science at
+**Zanzibar University**. My research examines how artificial intelligence is
+understood, adopted, and used in higher education — especially in African and
+small-island contexts.
 
-I study the intersection of human motivation and intelligent systems: how
-AI-supported feedback, learning analytics, and adaptive interventions change
-the way students plan, monitor, and complete academic work. My goal is to
-design educational technology that strengthens — rather than replaces — a
-learner's own regulation of goals, time, and effort.
+Coming from a background that spans information technology, education, and
+industrial design engineering, I study the gap between AI *readiness* and AI
+*adoption*: why institutions and educators that are prepared for AI still
+struggle to use it well, how AI can scaffold students' help-seeking and
+self-regulated learning, and what responsible AIED policy looks like for
+under-resourced systems. Alongside this, I work on human factors and
+ergonomics in design.

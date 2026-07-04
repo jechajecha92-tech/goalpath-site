@@ -1,59 +1,56 @@
-# Research software and academic projects.
-# Fields: name, role, status, description, tech (list), url (optional),
+# Applied research, consultancy, and academic projects from the author's CV.
+# Fields: name, role, status, description, tech (keywords), url (optional),
 #         featured (shown on the home page).
-- name: ProcrastiScope
-  role: Lead developer & researcher
-  status: In development
+- name: Inclusive Digital Economy Scorecard (IDES) & Zanzibar Digital Transformation Policy
+  role: Consultant / researcher
+  status: 2024
   featured: true
   description: >-
-    An open research toolkit that computes procrastination indicators from
-    learning-management-system trace data — submission lateness, session
-    spacing, and deadline-proximity patterns — so that researchers can study
-    academic delay from behavior rather than self-report alone.
+    Contributed to a UNCDF study — on behalf of Zanzibar's Ministry of
+    Infrastructure, Communication and Transport and the Zanzibar Research
+    Centre for Socio-Economic and Policy Analysis (ZRCP) — developing an
+    Inclusive Digital Economy Scorecard and informing Zanzibar's digital
+    transformation policy.
   tech:
-    - Python
-    - pandas
-    - Moodle logs
-  url: "https://github.com/jechajecha92-tech/procrastiscope"
+    - Digital economy
+    - Policy analysis
+    - Zanzibar
 
-- name: SRL Coach
-  role: Doctoral project
-  status: Design & pilot phase
+- name: Jamii ni Afya — Digital Health Program Transition
+  role: Contributor
+  status: 2023
   featured: true
   description: >-
-    A design-based research project prototyping AI-generated,
-    self-regulated-learning-informed feedback for university students. The
-    prototype turns weekly study plans and LMS activity into short
-    motivational and strategic prompts, and is the intervention platform for
-    my dissertation studies.
+    Supported the transition of Jamii ni Afya — a digital community-health
+    program improving reproductive health and the well-being of young people
+    — to the Government of Zanzibar, in partnership with D-tree International
+    and ZRCP.
   tech:
-    - Claude API
-    - Flask
-    - Learning analytics
+    - Digital health
+    - mHealth
+    - Government handover
 
-- name: Procrastination & AI Interventions Review Corpus
-  role: Maintainer
-  status: Ongoing
+- name: Research & IT Administration at ZRCP
+  role: Researcher & IT Administrator
+  status: 2019 – 2023
   featured: false
   description: >-
-    A curated, openly documented corpus of empirical studies on
-    technology-supported interventions for academic procrastination and
-    self-regulated learning, maintained alongside my systematic review with
-    search protocols and screening decisions.
+    Administered IT facilities and conducted socio-economic research and
+    policy analysis at the Zanzibar Research Centre for Socio-Economic and
+    Policy Analysis.
   tech:
-    - PRISMA
-    - Zotero
-    - Open science
+    - Research
+    - IT administration
+    - Policy analysis
 
-- name: EdTech Methods Materials for Zanzibar University
-  role: Author & lecturer
-  status: Ongoing
+- name: Curriculum Development — Science with Education, Zanzibar University
+  role: Panel member
+  status: 2018 – 2019
   featured: false
   description: >-
-    Open teaching materials for undergraduate educational technology and
-    research methods courses at Zanzibar University, designed for
-    low-bandwidth contexts: printable handouts, offline-first activities,
-    and locally relevant case studies.
+    Participated in developing and reviewing curricula for Zanzibar
+    University's Diploma and Degree programmes in Science with Education,
+    including the BSc in Information Technology with Education.
   tech:
-    - Markdown
-    - Open educational resources
+    - Curriculum design
+    - Higher education

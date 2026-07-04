@@ -1,78 +1,185 @@
-# Publications — newest first.
+# Publications — newest first. Sourced from ORCID 0000-0002-7784-0994.
 # type: journal | conference | chapter | working | preprint
-# Optional fields: doi, pdf, bibtex, abstract, dataset, code, status, featured
-- title: "Detecting Academic Procrastination from Learning Management System Logs: A Behavioral Indicators Approach"
-  authors: "Jecha, J. S."
+# Author lists are taken from Crossref where available; for a few
+# conference items only the ORCID record was available, so co-authors may
+# need to be added by hand. Optional fields: doi, pdf, bibtex, abstract,
+# dataset, code, status, featured.
+
+- title: "Beyond skepticism: Question marks surrounding AI and AIED policies in Africa"
+  authors: "Nyagoga, L. M., Mapunda, E. J., Shirima, M. J., Jecha, J. S., Nicodemus, M. W., & Adarkwah, M. A."
+  year: 2026
+  type: journal
+  status: "Published"
+  venue: "Computers and Education Open, 10, 100370"
+  featured: true
+  doi: "https://doi.org/10.1016/j.caeo.2026.100370"
+  bibtex: |
+    @article{nyagoga2026beyond,
+      author  = {Nyagoga, Lucy Michael and Mapunda, Evance Joseph and
+                 Shirima, Mariana Julius and Jecha, Jecha S. and
+                 Nicodemus, Michael W. and Adarkwah, Michael Agyemang},
+      title   = {Beyond skepticism: Question marks surrounding AI and AIED
+                 policies in Africa},
+      journal = {Computers and Education Open},
+      volume  = {10},
+      pages   = {100370},
+      year    = {2026},
+      doi     = {10.1016/j.caeo.2026.100370}
+    }
+
+- title: "Generative AI and Adaptive Systems for Customising Help-Seeking Scaffolds: A Systematic Review"
+  authors: "Jecha, J., Igwean, C. C., & Banaras, A."
   year: 2026
   type: preprint
-  status: "Preprint"
-  venue: "EdArXiv"
+  status: "Preprint (Research Square)"
+  venue: "Research Square"
   featured: true
-  # Add doi: and pdf: once the preprint is registered
-  code: "https://github.com/jechajecha92-tech/procrastiscope"
-  abstract: >-
-    Self-report questionnaires dominate procrastination research, yet delay
-    is fundamentally behavioral. This paper proposes a set of indicators —
-    submission lateness, session spacing, and deadline-proximity activity
-    ratios — computable from standard Moodle logs, and examines their
-    relationship with the Academic Procrastination Scale in an undergraduate
-    sample. Results suggest trace-based indicators capture a distinct,
-    behavior-proximal dimension of procrastination that self-report misses,
-    with implications for early-warning learning analytics.
+  doi: "https://doi.org/10.21203/rs.3.rs-9471902/v1"
   bibtex: |
-    @unpublished{jecha2026detecting,
-      author  = {Jecha, Jecha S.},
-      title   = {Detecting Academic Procrastination from Learning Management
-                 System Logs: A Behavioral Indicators Approach},
-      note    = {Preprint, EdArXiv},
-      year    = {2026}
+    @unpublished{jecha2026genai,
+      author = {Jecha, Jecha and Igwean, Chimaobi Charles and Banaras, Anum},
+      title  = {Generative AI and Adaptive Systems for Customising
+                Help-Seeking Scaffolds: A Systematic Review},
+      note   = {Preprint, Research Square},
+      year   = {2026},
+      doi    = {10.21203/rs.3.rs-9471902/v1}
     }
 
-- title: "AI-Based Interventions for Academic Procrastination and Self-Regulated Learning: A Systematic Review Protocol"
-  authors: "Jecha, J. S."
+- title: "Navigating the Future: Assessing the Impacts and Challenges of AI Integration in Higher Education Institutions in Zanzibar"
+  authors: "Jecha, J., & Nassor, H."
   year: 2026
-  type: working
-  status: "Working paper"
-  venue: "Southwest University, Faculty of Education"
+  type: preprint
+  status: "Preprint (Research Square)"
+  venue: "Research Square"
   featured: true
-  abstract: >-
-    Registered protocol for a PRISMA-guided systematic review of empirical
-    studies in which artificial intelligence — adaptive systems,
-    conversational agents, or LLM-generated feedback — is used to reduce
-    academic procrastination or scaffold self-regulated learning in higher
-    education. The protocol defines search strategy, inclusion criteria,
-    and a coding framework distinguishing which phase of the self-regulation
-    cycle each intervention targets.
+  doi: "https://doi.org/10.21203/rs.3.rs-9479399/v1"
   bibtex: |
-    @techreport{jecha2026review,
-      author      = {Jecha, Jecha S.},
-      title       = {AI-Based Interventions for Academic Procrastination and
-                     Self-Regulated Learning: A Systematic Review Protocol},
-      institution = {Southwest University, Faculty of Education},
-      type        = {Working paper},
-      year        = {2026}
+    @unpublished{jecha2026navigating,
+      author = {Jecha, Jecha and Nassor, Hayfa},
+      title  = {Navigating the Future: Assessing the Impacts and Challenges
+                of AI Integration in Higher Education Institutions in
+                Zanzibar},
+      note   = {Preprint, Research Square},
+      year   = {2026},
+      doi    = {10.21203/rs.3.rs-9479399/v1}
     }
 
-- title: "Self-Regulated Learning and Online Study Behavior of Undergraduate Students in Zanzibar: An Exploratory Study"
+- title: "When Readiness Doesn't Lead to Adoption: A TOE-TAM Analysis of AI-Enabled HR Digitalization in a Resource-Constrained SIDS"
+  authors: "Jecha, J., Ali, A., & Mussa, A."
+  year: 2026
+  type: preprint
+  status: "Preprint (Research Square)"
+  venue: "Research Square"
+  doi: "https://doi.org/10.21203/rs.3.rs-9472562/v1"
+  bibtex: |
+    @unpublished{jecha2026readiness,
+      author = {Jecha, Jecha and Ali, Ally and Mussa, Adilu},
+      title  = {When Readiness Doesn't Lead to Adoption: A TOE-TAM Analysis
+                of AI-Enabled HR Digitalization in a Resource-Constrained
+                SIDS},
+      note   = {Preprint, Research Square},
+      year   = {2026},
+      doi    = {10.21203/rs.3.rs-9472562/v1}
+    }
+
+- title: "Spatial Distribution and Health Risk Implications of Nitrate Contamination in Groundwater from Rural and Peri-Urban Areas of Zanzibar, Tanzania"
+  authors: "Said, K. M., & Jecha, J. S."
+  year: 2026
+  type: preprint
+  status: "Preprint (Preprints.org)"
+  venue: "Preprints.org"
+  doi: "https://doi.org/10.20944/preprints202604.1874.v1"
+  bibtex: |
+    @unpublished{said2026spatial,
+      author = {Said, Khamis M. and Jecha, Jecha S.},
+      title  = {Spatial Distribution and Health Risk Implications of Nitrate
+                Contamination in Groundwater from Rural and Peri-Urban Areas
+                of Zanzibar, Tanzania},
+      note   = {Preprint, Preprints.org},
+      year   = {2026},
+      doi    = {10.20944/preprints202604.1874.v1}
+    }
+
+- title: "AI Integration Readiness in Higher Education: Structural Equation Modeling Analysis Based on UTAUT"
   authors: "Jecha, J. S."
   year: 2025
   type: conference
   status: "Conference paper"
-  venue: "Proceedings of the East African Conference on Educational Technology"
-  featured: true
-  abstract: >-
-    An exploratory study of how undergraduate students at a Tanzanian
-    university plan, monitor, and complete online coursework under
-    conditions of limited connectivity and shared devices. Findings
-    highlight coping strategies invisible to mainstream self-regulated
-    learning instruments and motivate context-sensitive measurement for
-    low-resource settings.
+  venue: "11th Forum on Empirical Education Research (FEER)"
+  pdf: "http://feer.ecn.edu.cn"
   bibtex: |
-    @inproceedings{jecha2025srl,
+    @inproceedings{jecha2025utaut,
       author    = {Jecha, Jecha S.},
-      title     = {Self-Regulated Learning and Online Study Behavior of
-                   Undergraduate Students in Zanzibar: An Exploratory Study},
-      booktitle = {Proceedings of the East African Conference on Educational
-                   Technology},
+      title     = {AI Integration Readiness in Higher Education: Structural
+                   Equation Modeling Analysis Based on UTAUT},
+      booktitle = {11th Forum on Empirical Education Research (FEER)},
       year      = {2025}
+    }
+
+- title: "Optimizing Teaching Effectiveness Through Educational Technology: A Pilot Study on Lecturer Perspectives and Application at Zanzibar University"
+  authors: "Jecha, J. S."
+  year: 2025
+  type: conference
+  status: "Conference paper"
+  venue: "F4L Education Conference"
+  bibtex: |
+    @inproceedings{jecha2025optimizing,
+      author    = {Jecha, Jecha S.},
+      title     = {Optimizing Teaching Effectiveness Through Educational
+                   Technology: A Pilot Study on Lecturer Perspectives and
+                   Application at Zanzibar University},
+      booktitle = {F4L Education Conference},
+      year      = {2025}
+    }
+
+- title: "The Interaction Design of Registration Machines"
+  authors: "Walusimbi, P., Hui, Y. C., Mengru, X., & Jecha, J. S."
+  year: 2025
+  type: conference
+  status: "Conference paper"
+  venue: "16th International Conference on Applied Human Factors and Ergonomics (AHFE 2025)"
+  doi: "https://doi.org/10.54941/ahfe1006176"
+  bibtex: |
+    @inproceedings{walusimbi2025interaction,
+      author    = {Walusimbi, Peter and Hui, Yi Chuan and Mengru, Xue and
+                   Jecha, Jecha S.},
+      title     = {The Interaction Design of Registration Machines},
+      booktitle = {AHFE International (16th International Conference on
+                   Applied Human Factors and Ergonomics)},
+      year      = {2025},
+      doi       = {10.54941/ahfe1006176}
+    }
+
+- title: "Ergonomic Mismatch Between University Student Anthropometry and Classroom Furniture in Tanzania"
+  authors: "Jecha, J. S."
+  year: 2023
+  type: conference
+  status: "Conference paper"
+  venue: "Chartered Institute of Ergonomics & Human Factors (CIEHF) 2023"
+  pdf: "https://publications.ergonomics.org.uk/publications/ergonomic-mismatch-between-university-student-anthropometry-and-classroom-furniture-in-tanzania.html"
+  bibtex: |
+    @inproceedings{jecha2023ergonomic,
+      author    = {Jecha, Jecha S.},
+      title     = {Ergonomic Mismatch Between University Student
+                   Anthropometry and Classroom Furniture in Tanzania},
+      booktitle = {Chartered Institute of Ergonomics \& Human Factors 2023},
+      year      = {2023}
+    }
+
+- title: "Evaluation of Ergonomic Needs Among Female Sewing Machine Operators in Garments Industry of Bangladesh: A Pilot Study"
+  authors: "Rafique, S., Jecha, J. S., & Lyu, H."
+  year: 2023
+  type: conference
+  status: "Conference paper"
+  venue: "AHFE International"
+  doi: "https://doi.org/10.54941/ahfe1003037"
+  bibtex: |
+    @inproceedings{rafique2023evaluation,
+      author    = {Rafique, Samia and Jecha, Jecha S. and Lyu, Hui},
+      title     = {Evaluation of Ergonomic Needs Among Female Sewing Machine
+                   Operators in Garments Industry of Bangladesh: A Pilot
+                   Study},
+      booktitle = {AHFE International},
+      year      = {2023},
+      doi       = {10.54941/ahfe1003037}
     }

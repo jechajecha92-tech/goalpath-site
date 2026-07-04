@@ -1,9 +1,10 @@
 ---
 title: Projects
-subtitle: Research software and academic projects.
+subtitle: Applied research, consultancy, and academic projects.
 description: >-
-  Research software and academic projects by Jecha S Jecha, including
-  learning analytics tools and AI-supported learning interventions.
+  Applied research and consultancy by Jecha S Jecha, including digital
+  economy and digital health work in Zanzibar and higher-education
+  curriculum development.
 permalink: /projects/
 ---
 <div class="card-grid" markdown="0">

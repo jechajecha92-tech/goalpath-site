@@ -1,76 +1,68 @@
 ---
 title: Research
 description: >-
-  Research themes of Jecha S Jecha — AI in education, academic
-  procrastination, self-regulated learning, learning analytics, and
-  human-AI interaction.
+  Research themes of Jecha S Jecha — AI in education, AI adoption in higher
+  education, self-regulated learning, educational technology, and human
+  factors.
 permalink: /research/
 ---
-My research asks a simple question with a complicated answer: **can
-artificial intelligence help students stop putting off the work that matters
-to them?** Answering it requires understanding procrastination as a
-self-regulation failure, measuring it from real learning behavior, and
-designing AI systems that intervene helpfully rather than intrusively.
+My research asks how artificial intelligence actually takes hold in
+education — not in the abstract, but in the specific institutions,
+classrooms, and policy environments of African and small-island developing
+contexts. I am interested in the distance between being *ready* for AI and
+genuinely *adopting* it, and in designing AI support that helps learners
+rather than displacing their own regulation.
 
 ## Research themes
 
-### Academic procrastination
+### AI adoption and readiness in higher education
 
-Procrastination is one of the most common and most damaging study behaviors
-in higher education. I study its antecedents — fear of failure, task
-aversiveness, poor time perception, and emotional regulation difficulties —
-and how they manifest differently across cultures and institutional
-contexts, drawing on data from both Tanzanian and Chinese universities.
+Institutions and educators are increasingly "ready" for AI on paper —
+infrastructure, awareness, policy intent — yet adoption often stalls. Using
+frameworks such as UTAUT and TOE–TAM, I study the organisational,
+technological, and human factors that determine whether AI-enabled tools are
+actually taken up, with fieldwork in Zanzibar's higher-education and public
+sectors.
 
-### Self-regulated learning
+### AI in education policy in Africa
 
-Self-regulated learning (SRL) theory describes how successful learners set
-goals, choose strategies, monitor progress, and adapt. My work treats
-procrastination as a breakdown in the SRL cycle and asks which phases —
-forethought, performance, or reflection — are the most effective targets for
-technological support.
+Debates about AI in African education tend to swing between hype and
+skepticism. My work argues for a third path: careful, context-sensitive AIED
+policy that takes both the opportunities and the real constraints of
+under-resourced systems seriously.
 
-### AI in education and human-AI interaction
+### Generative AI and self-regulated learning
 
-Large language models and adaptive systems make personalized, conversational
-support feasible at scale. I investigate how AI-generated feedback, prompts,
-and planning assistance affect student motivation and behavior, and where
-the line sits between supporting a learner's self-regulation and quietly
-replacing it. Trust, autonomy, and over-reliance are central concerns.
+Generative AI and adaptive systems make personalised support feasible at
+scale. I investigate how they can scaffold students' **help-seeking** and
+self-regulated learning — and where the line sits between supporting a
+learner's own regulation and quietly replacing it.
 
-### Learning analytics
+### Human factors and ergonomics
 
-Trace data from learning management systems — submission times, session
-patterns, engagement gaps — makes procrastination visible before deadlines
-do. I work on indicators and models that detect delay and disengagement
-early enough for an intervention to matter.
+Growing out of my industrial design engineering training, I also work on
+human factors and ergonomics — from anthropometric mismatch between students
+and classroom furniture to the interaction design of everyday systems.
 
 ## Current work
 
-My doctoral project develops and evaluates an AI-supported intervention for
-academic procrastination in university students. The project proceeds in
-three phases:
-
-1. A systematic review of AI-based interventions targeting procrastination
-   and self-regulated learning.
-2. Measurement studies linking self-report instruments with behavioral trace
-   indicators of delay.
-3. A design-based intervention study evaluating AI-generated, SRL-informed
-   feedback in authentic courses.
+My doctoral research develops these threads into a coherent program on AI
+adoption and AI-supported learning in higher education, combining survey and
+structural-equation methods with systematic review and case studies drawn
+from Zanzibar and the wider region.
 
 ## Future directions
 
-- Cross-cultural validation of procrastination and SRL measures between
-  East African and Chinese higher education.
-- Design principles for educational AI in **low-resource settings**, where
-  connectivity, devices, and institutional data infrastructure are limited.
-- Longitudinal studies of whether AI-supported regulation skills persist
-  after the support is withdrawn — the difference between a scaffold and a
-  crutch.
+- Longitudinal study of AI adoption trajectories in resource-constrained
+  institutions, beyond one-off readiness snapshots.
+- Design and evaluation of AI-based help-seeking scaffolds for
+  self-regulated learning.
+- Context-sensitive AIED policy frameworks for African and small-island
+  developing states.
 
 ## Collaboration
 
-I am always interested in collaborating with researchers working on
-self-regulated learning, learning analytics, educational LLM applications,
-or higher education in Sub-Saharan Africa. If our interests overlap, please
+I welcome collaboration with researchers working on AI in education, AI
+adoption and technology acceptance, self-regulated learning, or higher
+education in Sub-Saharan Africa. If our interests overlap, please
 [get in touch](/contact/).

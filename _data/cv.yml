@@ -1,53 +1,83 @@
 # CV content rendered on /cv/ — edit here, then regenerate the PDF in
-# assets/files/jecha-s-jecha-cv.pdf to match.
+# assets/files/jecha-s-jecha-cv.pdf to match. Sourced from the author's CV.
 education:
   - degree: PhD in Educational Technology (in progress)
     institution: Southwest University
     location: Chongqing, China
-    period: 2024 – present
+    period: Sept 2024 – July 2028
     detail: >-
-      Dissertation research on AI-supported interventions for academic
-      procrastination and self-regulated learning in higher education.
-  - degree: Master of Education (Educational Technology)
-    institution: Southwest University
-    location: Chongqing, China
-    period: 2021 – 2024
+      Doctoral research on artificial intelligence in education, with a focus
+      on AI adoption and readiness in higher education and AI-supported
+      self-regulated learning.
+  - degree: Master of Industrial Design Engineering
+    institution: Zhejiang University
+    location: Hangzhou / Ningbo, China
+    period: Sept 2021 – Mar 2024
     detail: >-
-      Thesis on self-regulated learning and online study behavior of
-      undergraduate students.
-  - degree: Bachelor of Education
+      Graduate study in industrial design engineering, human factors, and
+      ergonomics.
+  - degree: Bachelor of Science in Information Technology with Education
     institution: Zanzibar University
     location: Zanzibar, Tanzania
-    period: 2016 – 2019
-    detail: Graduated with honours; specialization in ICT in education.
+    period: Nov 2013 – Aug 2016
+    detail: Undergraduate training combining information technology and education.
+  - degree: Diploma in Business Information Technology
+    institution: Zanzibar University
+    location: Zanzibar, Tanzania
+    period: July 2012 – July 2013
 
 appointments:
-  - title: Assistant Lecturer
+  - title: Assistant Lecturer, Faculty of Science
     institution: Zanzibar University
     location: Zanzibar, Tanzania
-    period: 2020 – present
+    period: July 2017 – present
     detail: >-
-      Teaching undergraduate courses in educational technology, ICT skills,
-      and research methods; supervising final-year student projects.
-  - title: Graduate Research Assistant
-    institution: Southwest University, Faculty of Education
-    location: Chongqing, China
-    period: 2022 – 2024
+      Lecturing, supervising tutorials, seminars, and practicals; research,
+      consultancy, and outreach; setting, marking, and invigilating
+      university examinations; and administrative duties for the Faculty of
+      Science.
+  - title: Researcher and IT Administrator
+    institution: Zanzibar Research Centre for Socio-Economic and Policy Analysis (ZRCP)
+    location: Zanzibar, Tanzania
+    period: Sept 2019 – May 2023
     detail: >-
-      Supported research projects on learning analytics and online learning
-      behavior; contributed to data collection and analysis.
+      Administered IT facilities and conducted research and policy analysis.
+  - title: Administrative Officer, Faculty of Science
+    institution: Zanzibar University
+    location: Zanzibar, Tanzania
+    period: Sept 2016 – July 2017
+    detail: >-
+      Supported the Dean in running the faculty; served as secretary to the
+      Faculty Board.
+  - title: Teacher and IT Technician
+    institution: Bwejuu Charity School
+    location: Zanzibar, Tanzania
+    period: Feb 2011 – Sept 2012
+    detail: >-
+      Taught IT and general science; managed the school's IT systems and
+      computer laboratory.
 
 skills:
-  - area: Research methods
-    items: Quantitative and qualitative design, systematic reviews (PRISMA), survey and instrument development
-  - area: Data & analytics
-    items: Python (pandas, scikit-learn), R, SPSS, learning-management-system log analysis
-  - area: Educational technology
-    items: LMS administration (Moodle), instructional design, AI-assisted learning tools
+  - area: Research
+    items: Research design, writing and publication, policy analysis, and research training
+  - area: Educational technology & AI
+    items: AI in education, AI training for academics, instructional technology
+  - area: Human factors
+    items: Ergonomics, anthropometry, industrial and interaction design
   - area: Languages
-    items: Swahili (native), English (fluent), Chinese (intermediate)
+    items: Swahili (native), English (fluent), Chinese (working proficiency)
+
+awards:
+  - year: 2025
+    text: "2025 International Students' Excellent Academic Paper Award."
+  - year: 2021
+    text: "Culture from Afar — International Charity Digital Arts Exhibition (World Eco-Design Conference & National Eco-Industrial Design Institute)."
+  - year: 2020
+    text: "FIRST EDU Transfer — Designing and Facilitating Active Deep Learner Experience (ADLX), NAMA Foundation."
+  - year: 2018
+    text: "Workshop on Competence-Based Education and Training curriculum development, delivery, and assessment (NACTE)."
 
 service:
-  - "Reviewer for student research conferences at Zanzibar University."
-  - "Coordinator of a cross-university doctoral reading group on large language models in education (Chongqing / East Africa)."
-  - "Mentor for first-generation university students navigating postgraduate applications."
+  - "Consultant (2024) to UNCDF on behalf of Zanzibar's Ministry of Infrastructure, Communication and Transport and ZRCP — study on the Inclusive Digital Economy Scorecard (IDES) and Zanzibar Digital Transformation Policy."
+  - "Contributor (2023) to the transition of the Jamii ni Afya digital health program to the Government of Zanzibar, with D-tree International and ZRCP."
+  - "Curriculum development and review panels for Zanzibar University's Science with Education programmes (2018–2019)."

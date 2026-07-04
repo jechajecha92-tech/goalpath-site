@@ -1,38 +1,34 @@
-# Courses and supervision rendered on the teaching page.
+# Teaching and supervision rendered on the teaching page.
+# Course titles describe the author's teaching areas in the Faculty of
+# Science, Zanzibar University. Add exact course codes when available.
 courses:
-  - code: EDU 211
-    title: Introduction to Educational Technology
+  - title: Information Technology (Faculty of Science)
     institution: Zanzibar University
     level: Undergraduate
     role: Assistant Lecturer
     description: >-
-      Foundations of technology-enhanced teaching and learning: learning
-      theories behind educational media, evaluating digital tools, and
-      designing technology-supported lessons for local classroom realities.
-  - code: EDU 324
-    title: Research Methods in Education
+      Lecturing and leading tutorials, seminars, and practical sessions in
+      information technology within the Faculty of Science, including
+      setting, marking, and invigilating university examinations.
+  - title: Information Technology with Education
     institution: Zanzibar University
     level: Undergraduate
     role: Assistant Lecturer
     description: >-
-      Quantitative and qualitative research design for education students:
-      framing researchable questions, instruments and sampling, basic
-      statistics, and academic writing, culminating in a small empirical
-      study.
-  - code: EDU 118
-    title: ICT Skills for Educators
-    institution: Zanzibar University
-    level: Undergraduate
-    role: Assistant Lecturer
+      Teaching on the BSc in Information Technology with Education, connecting
+      computing skills with classroom pedagogy for future educators.
+  - title: Computer Skills Training
+    institution: Various schools & institutions, Zanzibar
+    level: Professional / short course
+    role: Trainer
     description: >-
-      Practical digital literacy for future teachers — productivity tools,
-      open educational resources, and responsible, critical use of AI
-      assistants for lesson preparation.
+      Delivering practical computer and IT training courses, including AI
+      training for academics and research-methods training.
 
 supervision:
   - level: Undergraduate final-year projects
-    institution: Zanzibar University
+    institution: Zanzibar University, Faculty of Science
     topics: >-
-      Educational technology adoption, study habits and time management,
-      mobile learning in low-connectivity settings, and teachers' use of AI
-      tools. Typically 3–5 students per academic year.
+      Information technology, AI adoption in higher education, and applied
+      research projects, alongside assisting senior staff in supervising
+      tutorials, seminars, and practicals.

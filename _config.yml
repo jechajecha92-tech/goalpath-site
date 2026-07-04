@@ -3,8 +3,8 @@ title: Jecha S Jecha
 tagline: PhD Researcher in AI in Education
 description: >-
   Personal academic website of Jecha S Jecha, PhD student at Southwest
-  University researching Artificial Intelligence in Education, academic
-  procrastination, self-regulated learning, and learning analytics.
+  University researching artificial intelligence in education, AI adoption in
+  higher education, and self-regulated learning.
 url: "https://goalpath.site"
 baseurl: ""
 lang: en
@@ -13,28 +13,28 @@ timezone: Asia/Shanghai
 # Author profile (used across layouts, SEO, and structured data)
 author:
   name: Jecha S Jecha
-  email: jechajecha92@gmail.com
+  email: jecha@zanvarsity.ac.tz          # institutional (primary)
+  email_personal: jechasulieman@gmail.com
+  wechat: Jecha_Jecha
   positions:
-    - title: PhD Student
+    - title: PhD Student in Educational Technology
       institution: Southwest University
       location: Chongqing, China
-    - title: Assistant Lecturer
+    - title: Assistant Lecturer, Faculty of Science
       institution: Zanzibar University
       location: Zanzibar, Tanzania
   research_interests:
     - Artificial Intelligence in Education
-    - Academic Procrastination
+    - AI Adoption in Higher Education
     - Self-Regulated Learning
     - Educational Technology
-    - Learning Analytics
     - Human-AI Interaction
-  # Profile links: replace the placeholder IDs when accounts are available
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-  google_scholar: "https://scholar.google.com/citations?user=SCHOLAR_ID"
-  github: "https://github.com/jechajecha92-tech"
-  linkedin: "https://www.linkedin.com/in/jecha-jecha"
-  phone_china: "+86 19332914873"
-  phone_tanzania: "+255 776752905"
+    - Human Factors and Ergonomics
+  # Verified academic profiles
+  orcid: "https://orcid.org/0000-0002-7784-0994"
+  google_scholar: "https://scholar.google.com/citations?user=Hx_X6f8AAAAJ&hl=en"
+  phone_china: "+86 193 3291 4873"
+  phone_tanzania: "+255 776 752 905"
 
 # Build settings
 markdown: kramdown

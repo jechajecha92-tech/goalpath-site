@@ -2,9 +2,9 @@
 title: Publications
 subtitle: Journal papers, conference papers, book chapters, working papers, and preprints.
 description: >-
-  Publications by Jecha S Jecha on AI in education, academic
-  procrastination, self-regulated learning, and learning analytics — with
-  abstracts, DOIs, and BibTeX.
+  Publications by Jecha S Jecha on AI in education, AI adoption in higher
+  education, self-regulated learning, and human factors — with DOIs and
+  BibTeX.
 permalink: /publications/
 ---
 <div markdown="0">

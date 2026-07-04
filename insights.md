@@ -1,9 +1,9 @@
 ---
 title: AI Insights
-subtitle: Notes on artificial intelligence, procrastination, and how students actually learn.
+subtitle: Notes on artificial intelligence, its adoption, and how students actually learn.
 description: >-
-  AI Insights — the academic blog of Jecha S Jecha on AI in education,
-  academic procrastination, self-regulated learning, and learning analytics.
+  AI Insights — the academic blog of Jecha S Jecha on AI in education, AI
+  adoption in higher education, and self-regulated learning.
 permalink: /insights/
 ---
 <div markdown="0">
