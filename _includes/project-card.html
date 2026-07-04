@@ -1,14 +1,16 @@
 {%- comment -%}
   Project card. Usage: {% include project-card.html project=project %}
+  Pass heading="h2" when the card sits directly under the page h1.
 {%- endcomment -%}
+{%- assign h = include.heading | default: "h3" -%}
 <article class="card">
-  <h3 class="card__title">
+  <{{ h }} class="card__title">
     {%- if include.project.url -%}
     <a href="{{ include.project.url }}" rel="noopener">{{ include.project.name }}</a>
     {%- else -%}
     {{ include.project.name }}
     {%- endif -%}
-  </h3>
+  </{{ h }}>
   <p class="card__meta">{{ include.project.role }} &middot; {{ include.project.status }}</p>
   <p>{{ include.project.description }}</p>
   {%- if include.project.tech %}

@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "LC_ALL=en_US.UTF-8",
+        "LANG=en_US.UTF-8",
+        "JEKYLL_NO_BUNDLER_REQUIRE=true",
+        "/Users/jechas.jecha/.gem/ruby/2.6.0/bin/jekyll",
+        "serve",
+        "--port",
+        "4000"
+      ],
+      "port": 4000
+    }
+  ]
+}

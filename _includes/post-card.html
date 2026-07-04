@@ -1,8 +1,10 @@
 {%- comment -%}
   Blog post preview card. Usage: {% include post-card.html post=post %}
+  Pass heading="h2" when the card sits directly under the page h1.
 {%- endcomment -%}
+{%- assign h = include.heading | default: "h3" -%}
 <article class="card">
-  <h3 class="card__title"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h3>
+  <{{ h }} class="card__title"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></{{ h }}>
   <p class="card__meta">
     <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
   </p>

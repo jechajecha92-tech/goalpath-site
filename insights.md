@@ -10,7 +10,7 @@ permalink: /insights/
 <ul class="post-list">
   {% for post in site.posts %}
   <li>
-    {% include post-card.html post=post %}
+    {% include post-card.html post=post heading="h2" %}
   </li>
   {% endfor %}
 </ul>
