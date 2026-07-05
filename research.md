@@ -2,8 +2,7 @@
 title: Research
 description: >-
   Research themes of Jecha S Jecha — AI in education, AI adoption in higher
-  education, self-regulated learning, educational technology, and human
-  factors.
+  education, self-regulated learning, and educational technology.
 permalink: /research/
 ---
 My research asks how artificial intelligence actually takes hold in
@@ -37,12 +36,6 @@ Generative AI and adaptive systems make personalised support feasible at
 scale. I investigate how they can scaffold students' **help-seeking** and
 self-regulated learning — and where the line sits between supporting a
 learner's own regulation and quietly replacing it.
-
-### Human factors and ergonomics
-
-Growing out of my industrial design engineering training, I also work on
-human factors and ergonomics — from anthropometric mismatch between students
-and classroom furniture to the interaction design of everyday systems.
 
 ## Current work
 

@@ -18,5 +18,4 @@ industrial design engineering, I study the gap between AI *readiness* and AI
 *adoption*: why institutions and educators that are prepared for AI still
 struggle to use it well, how AI can scaffold students' help-seeking and
 self-regulated learning, and what responsible AIED policy looks like for
-under-resourced systems. Alongside this, I work on human factors and
-ergonomics in design.
+under-resourced systems.

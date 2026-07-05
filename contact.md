@@ -15,8 +15,8 @@ learning. Email is the fastest way to reach me.
   <dd><a href="mailto:{{ site.author.email_personal }}">{{ site.author.email_personal }}</a> (personal)</dd>
 
   <dt>Phone</dt>
-  <dd><a href="tel:+8619332914873">{{ site.author.phone_china }}</a> (China)</dd>
-  <dd><a href="tel:+255776752905">{{ site.author.phone_tanzania }}</a> (Tanzania / WhatsApp)</dd>
+  <dd><a href="tel:+8619332914873">{{ site.author.phone_china }}</a> (China / WhatsApp)</dd>
+  <dd><a href="tel:+255776752905">{{ site.author.phone_tanzania }}</a> (Tanzania)</dd>
 
   <dt>WeChat</dt>
   <dd>{{ site.author.wechat }}</dd>

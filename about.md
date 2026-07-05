@@ -48,9 +48,9 @@ His current research asks a set of connected questions:
   China
 - **Assistant Lecturer, Faculty of Science**, Zanzibar University, Zanzibar,
   Tanzania
-- **Research areas:** AI in education, AI adoption in higher education,
-  self-regulated learning, educational technology, human-AI interaction, and
-  human factors & ergonomics
+- **Research areas:** AI in education, academic procrastination,
+  self-regulated learning, AI adoption in higher education, educational
+  technology, and human-AI interaction
 
 For a complete record of education, appointments, publications, and service,
 see the [CV](/cv/) or [download it as a PDF](/assets/files/jecha-s-jecha-cv.pdf).
