@@ -109,6 +109,7 @@
   type: journal
   status: "Published"
   venue: "Frontiers in Water, 8, 1886987"
+  featured: true
   doi: "https://doi.org/10.3389/frwa.2026.1886987"
   abstract: >-
     Nitrate contamination of groundwater is a growing concern in tropical

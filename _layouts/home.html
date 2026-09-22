@@ -73,7 +73,7 @@ layout: default
       </div>
       <a class="section-head__link" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
     </div>
-    {%- for pub in featured_pubs limit: 3 %}
+    {%- for pub in featured_pubs limit: 4 %}
     {% include publication.html pub=pub id_prefix="home" %}
     {%- endfor %}
   </section>
