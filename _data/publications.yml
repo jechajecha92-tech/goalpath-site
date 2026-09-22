@@ -27,22 +27,31 @@
       doi     = {10.1016/j.caeo.2026.100370}
     }
 
-- title: "Generative AI and Adaptive Systems for Customising Help-Seeking Scaffolds: A Systematic Review"
-  authors: "Jecha, J., Igwean, C. C., & Banaras, A."
+- title: "Generative AI and adaptive systems for customising help-seeking scaffolds: A systematic review"
+  authors: "Jecha, J. S., Igweani, C. C., Banaras, A., Liang, Y., & Mwalyego, F. M."
   year: 2026
-  type: preprint
-  status: "Preprint (Research Square)"
-  venue: "Research Square"
+  type: journal
+  status: "Published"
+  venue: "Information Services and Use"
   featured: true
-  doi: "https://doi.org/10.21203/rs.3.rs-9471902/v1"
+  doi: "https://doi.org/10.1177/18758789261486037"
+  abstract: >-
+    Help-seeking is crucial in self-regulated learning (SRL), yet generic
+    scaffolds often fail to meet diverse learner needs. This PRISMA
+    systematic review synthesises 48 empirical studies (2017–2025) on how AI
+    — including large language models — customises help-seeking scaffolds,
+    examining their effects relative to standard scaffolds and the
+    methodological and ethical constraints, and identifies gaps for future
+    SRL-focused AI support.
   bibtex: |
-    @unpublished{jecha2026genai,
-      author = {Jecha, Jecha and Igwean, Chimaobi Charles and Banaras, Anum},
-      title  = {Generative AI and Adaptive Systems for Customising
-                Help-Seeking Scaffolds: A Systematic Review},
-      note   = {Preprint, Research Square},
-      year   = {2026},
-      doi    = {10.21203/rs.3.rs-9471902/v1}
+    @article{jecha2026genai,
+      author  = {Jecha, Jecha S. and Igweani, Chimaobi Charles and
+                 Banaras, Anum and Liang, Yu and Mwalyego, Faustin M.},
+      title   = {Generative AI and adaptive systems for customising
+                 help-seeking scaffolds: A systematic review},
+      journal = {Information Services and Use},
+      year    = {2026},
+      doi     = {10.1177/18758789261486037}
     }
 
 - title: "Navigating the Future: Assessing the Impacts and Challenges of AI Integration in Higher Education Institutions in Zanzibar"
@@ -51,7 +60,6 @@
   type: preprint
   status: "Preprint (Research Square)"
   venue: "Research Square"
-  featured: true
   doi: "https://doi.org/10.21203/rs.3.rs-9479399/v1"
   bibtex: |
     @unpublished{jecha2026navigating,
@@ -64,22 +72,35 @@
       doi    = {10.21203/rs.3.rs-9479399/v1}
     }
 
-- title: "When Readiness Doesn't Lead to Adoption: A TOE-TAM Analysis of AI-Enabled HR Digitalization in a Resource-Constrained SIDS"
-  authors: "Jecha, J., Ali, A., & Mussa, A."
+- title: "When readiness fails: a TOE–TAM mixed-methods analysis of AI-enabled HR digitalization in a resource-constrained small island context"
+  authors: "Jecha, J. S., Ali, A. K., & Mussa, A."
   year: 2026
-  type: preprint
-  status: "Preprint (Research Square)"
-  venue: "Research Square"
-  doi: "https://doi.org/10.21203/rs.3.rs-9472562/v1"
+  type: journal
+  status: "Published"
+  venue: "Frontiers in Artificial Intelligence, 9, 1902314"
+  featured: true
+  doi: "https://doi.org/10.3389/frai.2026.1902314"
+  abstract: >-
+    This study examines barriers to adopting AI in human resource management
+    across Zanzibar's public and private sectors, testing an integrated
+    Technology–Organization–Environment and Technology Acceptance (TOE–TAM)
+    framework under mandatory, resource-constrained conditions. Using an
+    explanatory sequential mixed-methods design — a survey of 137 HR
+    professionals, IT managers, and administrators analysed with PLS-SEM,
+    plus nine key-informant interviews — it finds that several standard
+    readiness predictors do not behave as theorised, with implications for
+    AI-HR adoption in small island developing states.
   bibtex: |
-    @unpublished{jecha2026readiness,
-      author = {Jecha, Jecha and Ali, Ally and Mussa, Adilu},
-      title  = {When Readiness Doesn't Lead to Adoption: A TOE-TAM Analysis
-                of AI-Enabled HR Digitalization in a Resource-Constrained
-                SIDS},
-      note   = {Preprint, Research Square},
-      year   = {2026},
-      doi    = {10.21203/rs.3.rs-9472562/v1}
+    @article{jecha2026readiness,
+      author  = {Jecha, Jecha S. and Ali, Ally Khamis and Mussa, Adilu},
+      title   = {When readiness fails: a TOE--TAM mixed-methods analysis of
+                 AI-enabled HR digitalization in a resource-constrained
+                 small island context},
+      journal = {Frontiers in Artificial Intelligence},
+      volume  = {9},
+      pages   = {1902314},
+      year    = {2026},
+      doi     = {10.3389/frai.2026.1902314}
     }
 
 - title: "Spatial Distribution and Health Risk Implications of Nitrate Contamination in Groundwater from Rural and Peri-Urban Areas of Zanzibar, Tanzania"
