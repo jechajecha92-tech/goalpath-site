@@ -16,10 +16,9 @@ and responsible use of AI in higher education across African and small-island
 developing contexts.
 
 His path to this work is deliberately interdisciplinary. He holds a Bachelor
-of Science in Information Technology with Education and a Diploma in Business
-Information Technology from Zanzibar University, and a Master of Industrial
-Design Engineering from **Zhejiang University**, where he worked on human
-factors and ergonomics. That combination — computing, education, and design —
+of Science in Information Technology with Education from Zanzibar University
+and a Master of Industrial Design Engineering from **Zhejiang University**,
+where he worked on human factors and ergonomics. That combination — computing, education, and design —
 shapes how he approaches educational technology: as systems that must fit the
 people, classrooms, and institutions that actually use them.
 
