@@ -103,22 +103,32 @@
       doi     = {10.3389/frai.2026.1902314}
     }
 
-- title: "Spatial Distribution and Health Risk Implications of Nitrate Contamination in Groundwater from Rural and Peri-Urban Areas of Zanzibar, Tanzania"
+- title: "Spatial distribution and health risk assessment of nitrate contamination in groundwater from rural and peri-urban areas of Zanzibar, Tanzania"
   authors: "Said, K. M., & Jecha, J. S."
   year: 2026
-  type: preprint
-  status: "Preprint (Preprints.org)"
-  venue: "Preprints.org"
-  doi: "https://doi.org/10.20944/preprints202604.1874.v1"
+  type: journal
+  status: "Published"
+  venue: "Frontiers in Water, 8, 1886987"
+  doi: "https://doi.org/10.3389/frwa.2026.1886987"
+  abstract: >-
+    Nitrate contamination of groundwater is a growing concern in tropical
+    island settings, where shallow aquifers are the primary drinking-water
+    source. This study assessed nitrate concentrations, their spatial
+    distribution, compliance with drinking-water guidelines, and the
+    associated non-carcinogenic health risk across 35 sampling wards in five
+    districts of Unguja Island, Zanzibar, analysing 116 groundwater samples
+    from wells and boreholes collected during a 2024 dry-season campaign.
   bibtex: |
-    @unpublished{said2026spatial,
-      author = {Said, Khamis M. and Jecha, Jecha S.},
-      title  = {Spatial Distribution and Health Risk Implications of Nitrate
-                Contamination in Groundwater from Rural and Peri-Urban Areas
-                of Zanzibar, Tanzania},
-      note   = {Preprint, Preprints.org},
-      year   = {2026},
-      doi    = {10.20944/preprints202604.1874.v1}
+    @article{said2026spatial,
+      author  = {Said, Khamis M. and Jecha, Jecha S.},
+      title   = {Spatial distribution and health risk assessment of nitrate
+                 contamination in groundwater from rural and peri-urban
+                 areas of Zanzibar, Tanzania},
+      journal = {Frontiers in Water},
+      volume  = {8},
+      pages   = {1886987},
+      year    = {2026},
+      doi     = {10.3389/frwa.2026.1886987}
     }
 
 - title: "AI Integration Readiness in Higher Education: Structural Equation Modeling Analysis Based on UTAUT"
